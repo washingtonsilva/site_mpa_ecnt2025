@@ -1,0 +1,29 @@
+---
+lang: pt-BR
+title: "Econometria Aplicada à Finanças 2025.2"
+subtitle: "Mestrado Profissional em Administração <br> IFMG Campus Formiga"
+---
+
+## Bem-vindo à disciplina
+
+Esta disciplina tem como objetivo desenvolver, nos mestrandos, competências para compreender, implementar e interpretar modelos de regressão linear, não linear e de equações simultâneas aplicados a dados em seção cruzada na área de finanças, utilizando a linguagem R, o sistema Quarto e o Git/GitHub como ferramentas para a produção de análises empíricas reprodutíveis.
+
+
+## Informações Gerais
+
+- **Professor:** [Prof. Dr. Washington Santos da Silva](https://washingtonsilva.github.io){target="_blank"}
+- **E-mail:** washington.silva@ifmg.edu.br
+- **Horário de aula:** Terça-Feira, 18:30-22:30
+- **Local:** Aulas Remotas Síncronas via Plataforma Google Meet
+
+
+## Conteúdo
+
+O conteúdo da disciplina está organizado na página
+[Cronograma](cronograma.qmd), onde você encontrará os materiais 
+necessários para acompanhar as aulas, incluindo slides, arquivos Quarto, 
+tutoriais, entre outros.
+
+O programa da disciplina está disponível na página 
+[Programa da Disciplina](programa.qmd), nela você encontrará informações 
+detalhadas sobre objetivos, ementa, bibliografia, avaliações, entre outras.

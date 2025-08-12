@@ -1,0 +1,236 @@
+---
+lang: pt-BR
+title: "Programa da Disciplina"
+subtitle: "Econometria Aplicada à Finanças 2025.2 <br> Mestrado Profissional em Aministração"
+author: "Prof. Dr. Washington S. da Silva"
+---
+
+
+## Objetivo Geral
+
+Desenvolver, nos mestrandos, competências para compreender, implementar e interpretar modelos de regressão linear, não linear e de equações simultâneas aplicados a dados em seção cruzada na área de finanças, empregando a linguagem R, o sistema Quarto e o Git/GitHub para a produção de análises empíricas reprodutíveis.
+
+
+
+## Objetivos Específicos
+
+Ao final da disciplina, espera-se que o mestrando seja capaz de:
+
+1. Compreender os fundamentos teóricos dos modelos de regressão linear, não linear e de equações simultâneas aplicados a dados em seção cruzada.
+
+2. Estimar e interpretar adequadamente modelos de regressão linear, não linear e de equações simultâneas em aplicações de finanças.
+
+3. Diagnosticar e tratar violações das hipóteses do modelo clássico, incluindo heterocedasticidade, multicolinearidade e especificação incorreta, entre outras questões.
+
+4. Implementar aplicações empíricas relevantes em finanças, como os modelos CAPM, Fama-French e Fama-MacBeth, entre outras.
+
+5. Elaborar e documentar projetos empíricos reprodutíveis, seguindo as boas práticas recomendadas na literatura.
+
+
+
+## Avaliação
+
+Trata-se de um planejamento e pode ser alterado conforme o andamento da disciplina.
+
+1. **Avaliação 1 (33 pontos)** — exercícios semanais realizados em aula. 
+
+2. **Avaliação 2 (33 pontos)** — teórico-prática.
+
+3. **Avaliação 3 (34 pontos)** — **projeto empírico reprodutível**, individual ou em dupla/trio, desenvolvido ao longo do semestre. 
+
+**Critério de aprovação:** nota média final igual ou superior a 60 pontos.
+
+
+::: {.callout-note icon="false"}
+## Diretrizes para o Projeto Empírico (Avaliação 3)
+
+**Objetivo:**  
+
+Produzir um estudo empírico de escopo limitado, com aplicação prática de pelo menos um modelo econométrico estudado na disciplina a um conjunto de dados reais da área de finanças.  
+
+O trabalho deve demonstrar aplicação correta dos conceitos e da metodologia, interpretação dos resultados e seguir princípios de reprodutibilidade, sem a necessidade de atender ao formato ou à profundidade de um artigo científico completo.
+
+**Entrega final:**  
+
+- Data: **25/11/2025** (Aula 15).  
+- Formato:  
+  - Relatório produzido usando o sistema Quarto (PDF ou HTML) contendo:  
+    1. Introdução (contexto e objetivo do estudo, de forma breve)  
+    2. Base de dados (fonte, período e descrição das variáveis)  
+    3. Metodologia (descrição objetiva dos modelos e procedimentos utilizados)  
+    4. Resultados (tabelas e/ou gráficos devem ser gerados com código e conter breve interpretação)  
+    5. Conclusões (resumo dos achados e possíveis limitações)  
+    6. Referências bibliográficas  
+  - Código **R** devidamente comentado, suficiente para reproduzir os resultados 
+  apresentados no relatório.  
+  - Publicação em repositório **GitHub** 
+
+**Apresentação oral:**  
+
+- Duração de até **30 minutos**, seguida de perguntas e discussão.  
+
+- **Slides obrigatórios**: devem ser produzidos com o sistema **Quarto**, utilizando um dos formatos:  
+  - **revealjs** (HTML interativo)  
+  - **pdf/beamer** (apresentação em PDF)
+
+**Critérios de avaliação (34 pontos):**  
+
+- **Correção técnica e reprodutibilidade** — **24 pontos**  
+  - Metodologia correta e aplicação e interpretação adequada dos modelos.  
+  - Código funcional e bem documentado.  
+
+- **Qualidade da comunicação** — **10 pontos**  
+  - Clareza e organização do relatório e da apresentação oral.  
+  - Qualidade visual e objetividade dos slides.
+
+**Sugestões de temas:**  
+
+- Comparação do desempenho do CAPM e do Fama-French na explicação dos retornos de ações.  
+- Estimação do risco sistemático e idiossincrático de ações.  
+- Determinantes da política de dividendos.  
+- Análise da probabilidade de default de empresas via logit/probit.  
+- Precificação de ativos com modelos de fatores.
+
+**Fontes de dados recomendadas:**  
+
+- Yahoo Finance (`tidyquant`)  
+- Refinitv, Quandl, etc.  
+- Outras fontes abertas e devidamente citadas.
+:::
+
+
+## Bibliografia Básica
+
+BROOKS, Chris. **Introductory Econometrics for Finance**. 4th ed. Cambridge University Press, 2019.
+
+WOOLDRIDGE, Jeffrey M. **Econometric Analysis of Cross Section and Panel Data**. MIT Press, 2010.
+
+
+
+## Bibliografia Complementar
+
+FARIA, Pedro Duarte. **Introdução à Linguagem R: Seus Fundamentos e sua Prática**. 2024. 
+Disponível em: [Introdução à Linguagem R](https://pedropark99.github.io/Introducao_R/){target="_blank"}
+
+TIMBERS, TIFFANY; CAMPBELL, Trevor; LEE, Melissa. **Data Science: A First Introduction**. 
+CRC Press, 2024. Disponível em: [Data Science: A First Introduction](https://datasciencebook.ca){target="_blank"}
+
+SCHEUCH, C.; VOIGT, S.; WEISS, P. **Tidy Finance with R**. CRC Press, 2023. Disponível 
+gratuitamente em: [https://www.tidy-finance.org/r/](https://www.tidy-finance.org/r/){target="_blank"}
+
+
+## Recursos Online
+
+Venables, W. N. & Smith, D. M. (2025). An Introduction to R. Manual para R versão 4.5.1 (13 de junho de 2025). R Core Team. Disponível em [https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf){target="_blank"}
+
+[Documentação do Sistema Quarto](https://quarto.org/docs/guide/){target="_blank"}
+
+[Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes){target="_blank"}
+
+
+
+## Ementa
+
+Computação científica reprodutível com R, Git/GitHub e Quarto. Fundamentos de probabilidade e inferência estatística aplicados à regressão. Modelo clássico de regressão linear: estimação, inferência e diagnóstico. Correção de violações das hipóteses clássicas. Aplicações empíricas em finanças: CAPM, Fama-French e Fama-MacBeth. Modelos de equações simultâneas e variáveis instrumentais. Modelos não lineares: logit e probit. Desenvolvimento de projeto empírico reprodutível.
+
+
+
+## Conteúdo Programático
+
+1. **Programação Científica Reprodutível**
+
+   - Fundamentos, importância e ferramentas (R, Quarto, Git/GitHub).
+   - Estruturação de projetos reprodutíveis.
+   - Introdução a pacotes para análise de dados financeiros.
+
+2. **Fundamentos de Probabilidade e Inferência**
+
+   - Conceitos essenciais de probabilidade aplicados à regressão.
+   - Noções de inferência estatística: estimadores, testes e intervalos.
+
+3. **Modelo Clássico de Regressão Linear**
+
+   - Especificação, hipóteses e estimação por MQO.
+   - Propriedades dos estimadores.
+   - Diagnóstico e tratamento de violações.
+   - Questões de especificação e estabilidade de parâmetros.
+
+4. **Aplicações em Finanças**
+
+   - Modelos CAPM, Fama-French e Fama-MacBeth.
+
+5. **Modelos de Equações Simultâneas**
+
+   - Conceitos, estimação e aplicações em finanças.
+
+6. **Modelos Não Lineares**
+
+   - Modelos Logit e Probit: fundamentos, estimação, interpretação e aplicações.
+
+7. **Projeto Empírico Reprodutível**
+
+   - Planejamento, execução e documentação.
+   - Integração dos métodos estudados em relatório e apresentação.
+
+
+
+## Recursos Didáticos e Materiais de Estudo
+
+Entre os recursos didáticos utilizados na disciplina estão:
+
+- **Materiais Primários para Estudo**:
+
+  - Bibliografia recomendada.
+
+  - Site da disciplina
+  
+  - Slides e notas de aula (disponibilizados no site da disciplina).
+  
+  - Tutoriais desenvolvidos em Quarto.
+  
+  - Arquivos quarto (*reports*) demonstrativos (.qmd).
+
+- **Ambiente e Ferramentas**:
+
+  - GitHub Classroom para compartilhamento de 
+    materiais e submissão de atividades.
+    
+  - Google Classroom para suporte.
+
+
+
+## Metodologia de Ensino
+
+A disciplina será conduzida no formato *hands-on*, com abordagem de aprendizagem ativa. 
+As aulas combinarão exposições teóricas objetivas com atividades práticas em R e Quarto, 
+incluindo simulações para compreensão dos conceitos de modelos de regressão e sua aplicação.  
+O uso de dados reais, simulados e estudos de caso em finanças permitirá integrar teoria, 
+prática computacional e pesquisa reprodutível.
+
+
+
+
+## Plano de Aula
+
+Trata-se apenas de um planejamento e, como todo planejamento, pode ser alterado conforme o andamento da disciplina.
+
+| Aula | Data       | Tópico                                                                                              |
+|------|------------|-----------------------------------------------------------------------------------------------------|
+| 1    | 19/08/2025 | Apresentação da disciplina. Ambiente computacional (R, Quarto, Git/GitHub)                          |
+| 2    | 26/08/2025 | Fundamentos de probabilidade e inferência                                                           |
+| 3    | 02/09/2025 | Modelo clássico de regressão linear: especificação, hipóteses e estimação                           |
+| 4    | 09/09/2025 | Propriedades dos estimadores e inferência estatística (testes e intervalos). Introdução ao CAPM     |
+| 5    | 16/09/2025 | Hipóteses, Diagnóstico e Soluções                                                                   |
+| 6    | 23/09/2025 | Hipóteses, Diagnóstico e Soluções (continuação)                                                     |
+| 7    | 30/09/2025 | Aplicações empíricas: CAPM, Fama-French, Fama-MacBeth                                                |
+| 8    | 07/10/2025 | Modelos de Equações simultâneas                                                                     |
+| 9    | 14/10/2025 | Modelos de Equações simultâneas (continuação)                                                       |
+| 10   | 21/10/2025 | **Avaliação 2 (intermediária)**                                                                     |
+| 11   | 28/10/2025 | Modelos não lineares                                                                                |
+| 12   | 04/11/2025 | Modelos não lineares (continuação)                                                                  |
+| 13   | 11/11/2025 | Modelos não lineares (continuação)                                                                  |
+| 14   | 18/11/2025 | **Tópico Extra:** Regressão quantílica. Encerramento e tópicos adicionais                           |
+| 15   | 25/11/2025 | **Avaliação 3 (final) — Apresentações do projeto empírico**                                         |
+
+
+

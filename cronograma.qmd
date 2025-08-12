@@ -1,0 +1,40 @@
+---
+lang: pt-BR
+title: "Cronograma"
+---
+
+Nesta página, você encontrará o cronograma completo da disciplina, com
+links para os materiais de cada aula, incluindo slides, links para 
+tutoriais criados para a disciplina, arquivos quarto (.qmd), 
+artigos, e outros recursos que poderão ser disponibilizados.
+
+
+# Semana 1
+
+## Aula 1 (19/08/2025) 
+
+- **Tópicos:**
+  
+  - Apresentação da disciplina
+
+- **Slides:**
+
+  ::: {.callout-tip}
+  ## Para navegar e visualizar 
+  
+  Clique no símbolo > à direita ou use as teclas: seta para direita →, espaço, 
+  ou letra "n" para avançar. Pressione "F" para modo de tela cheia e "Esc" 
+  para sair.
+  :::  
+  
+
+
+  
+ 
+
+
+
+
+
+
+

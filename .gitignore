@@ -1,0 +1,52 @@
+# ==========================
+# Quarto (caches e saídas temporárias)
+# ==========================
+# Atenção: NÃO ignore "docs/" — é a saída publicada no GitHub Pages.
+_site/
+_freeze/
+.quarto/
+
+# ==========================
+# R / RStudio
+# ==========================
+.Rproj.user/
+*.Rhistory
+*.RData
+*.Ruserdata
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================
+# Logs e temporários
+# ==========================
+*.log
+*.tmp
+*.bak
+*~
+
+
+
+/.quarto/

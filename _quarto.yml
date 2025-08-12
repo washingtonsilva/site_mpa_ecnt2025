@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+website:
+  title: "Econometria Aplicada à Finanças"
+  navbar:
+    background: primary
+    left:
+      - href: index.html
+        text: "Início"
+      - href: programa.html
+        text: "Programa da Disciplina"
+      - href: cronograma.html
+        text: "Cronograma"
+  page-footer:
+    left: "Copyright 2025, Washington Santos da Silva"
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/washingtonssilva/
+      - icon: globe
+        href: https://washingtonsilva.github.io
+    background: "#2F4F4F"
+
+  sidebar:
+    style: docked
+    search: true
+    contents:
+          - text: "Início"
+            href: index.qmd
+          - text: "Programa da Disciplina"
+            href: programa.qmd
+          - cronograma.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    lang: pt-BR
+
+
+
+
