@@ -15,6 +15,8 @@ website:
         text: "Programa da Disciplina"
       - href: cronograma.html
         text: "Cronograma"
+      - href: ambiente.html
+        text: "Ambiente Computacional"
   page-footer:
     left: "Copyright 2025, Washington Santos da Silva"
     right:
@@ -33,6 +35,8 @@ website:
           - text: "Programa da Disciplina"
             href: programa.qmd
           - cronograma.qmd
+          - text: "Ambiente Computacional"
+            href: ambiente.qmd
 
 format:
   html:

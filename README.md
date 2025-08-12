@@ -7,6 +7,7 @@ Site oficial da disciplina **Econometria Aplicada à Finanças** do Mestrado Pro
 Website desenvolvido com [Quarto](https://quarto.org) contendo:
 - Programa completo da disciplina
 - Cronograma detalhado das aulas
+- Instruções para configuração do ambiente computacional
 - Materiais de apoio e recursos didáticos
 - Informações sobre avaliações e projeto empírico
 
@@ -24,6 +25,7 @@ Website desenvolvido com [Quarto](https://quarto.org) contendo:
 ├── index.qmd         # Página inicial
 ├── programa.qmd      # Programa da disciplina
 ├── cronograma.qmd    # Cronograma das aulas
+├── ambiente.qmd      # Ambiente computacional
 ├── styles.css        # Estilos customizados
 ├── docs/             # Site renderizado (GitHub Pages)
 ├── slides/           # Apresentações das aulas

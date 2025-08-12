@@ -1,0 +1,139 @@
+---
+lang: pt-BR
+title: "Ambiente Computacional"
+subtitle: "Instalação e Configuração dos Softwares"
+---
+
+## Visão Geral
+
+Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.
+
+## Softwares Necessários
+
+### 1. R (Linguagem de Programação)
+
+O R é a principal ferramenta que utilizaremos para análises estatísticas e econométricas.
+
+**Instalação:**
+- Acesse [https://cran.r-project.org](https://cran.r-project.org){target="_blank"}
+- Escolha o sistema operacional (Windows, macOS ou Linux)
+- Baixe e instale a versão mais recente (recomendado: R 4.4.0 ou superior)
+
+### 2. RStudio Desktop
+
+O RStudio é o ambiente de desenvolvimento integrado (IDE) recomendado para trabalhar com R.
+
+**Instalação:**
+- Acesse [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/){target="_blank"}
+- Baixe a versão gratuita do RStudio Desktop
+- Instale após ter instalado o R
+
+### 3. Quarto
+
+O Quarto é o sistema de publicação científica que utilizaremos para criar relatórios reprodutíveis.
+
+**Instalação:**
+- Acesse [https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/){target="_blank"}
+- Baixe e instale a versão adequada para seu sistema operacional
+- O Quarto já vem integrado nas versões mais recentes do RStudio
+
+### 4. Git (Controle de Versão)
+
+O Git será utilizado para controle de versão e colaboração nos projetos.
+
+**Instalação:**
+
+- **Windows:** Baixe em [https://git-scm.com/download/win](https://git-scm.com/download/win){target="_blank"}
+- **macOS:** Instale via Homebrew (`brew install git`) ou baixe em [https://git-scm.com/download/mac](https://git-scm.com/download/mac){target="_blank"}
+- **Linux:** Use o gerenciador de pacotes da distribuição (ex: `sudo apt install git`)
+
+### 5. Conta no GitHub
+
+Utilizaremos o GitHub para compartilhamento de código e entrega de projetos.
+
+**Criação da conta:**
+- Acesse [https://github.com](https://github.com){target="_blank"}
+- Crie uma conta gratuita
+- Configure seu perfil com nome e foto
+
+## Pacotes R Essenciais
+
+Após instalar o R e RStudio, execute os comandos abaixo no console do R para instalar os pacotes principais:
+
+```r
+# Pacotes para manipulação de dados
+install.packages(c("tidyverse", "dplyr", "ggplot2"))
+
+# Pacotes para dados financeiros
+install.packages(c("tidyquant", "quantmod", "PerformanceAnalytics"))
+
+# Pacotes para econometria
+install.packages(c("broom", "car", "lmtest", "sandwich"))
+
+# Pacotes para relatórios
+install.packages(c("knitr", "rmarkdown", "DT"))
+
+# Outros pacotes úteis
+install.packages(c("here", "janitor", "skimr"))
+```
+
+## Configuração Inicial
+
+### Configuração do Git
+
+No terminal ou Git Bash, execute:
+
+```bash
+git config --global user.name "Seu Nome"
+git config --global user.email "seu.email@exemplo.com"
+```
+
+### Teste da Instalação
+
+Para verificar se tudo está funcionando:
+
+1. **Abra o RStudio**
+2. **Crie um novo arquivo Quarto** (File → New File → Quarto Document)
+3. **Teste o código R básico:**
+
+```r
+# Teste básico
+library(tidyverse)
+data(mtcars)
+ggplot(mtcars, aes(x = mpg, y = hp)) + 
+  geom_point() +
+  labs(title = "Teste de Instalação")
+```
+
+4. **Renderize o documento** clicando em "Render"
+
+## Recursos Adicionais
+
+### Documentação Oficial
+
+- [R Documentation](https://www.r-project.org/other-docs.html){target="_blank"}
+- [RStudio User Guide](https://docs.posit.co/ide/user/){target="_blank"}
+- [Quarto Documentation](https://quarto.org/docs/guide/){target="_blank"}
+- [Git Documentation](https://git-scm.com/doc){target="_blank"}
+
+### Tutoriais Recomendados
+
+- [R for Data Science](https://r4ds.hadley.nz/){target="_blank"} (Hadley Wickham)
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/){target="_blank"} (Jenny Bryan)
+- [Quarto Get Started](https://quarto.org/docs/get-started/hello/rstudio.html){target="_blank"}
+
+## Suporte Técnico
+
+Em caso de dificuldades na instalação:
+
+1. **Consulte a documentação oficial** dos softwares
+2. **Procure ajuda no Google Classroom** da disciplina
+3. **Entre em contato** durante o horário de aula ou por e-mail
+
+---
+
+::: {.callout-tip}
+## Dica Importante
+
+Instale todos os softwares **antes da primeira aula prática** para aproveitar melhor o tempo em sala. Em caso de problemas, traga seu laptop para que possamos resolver juntos durante a aula.
+:::

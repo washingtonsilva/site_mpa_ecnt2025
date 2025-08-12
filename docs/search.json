@@ -154,6 +154,83 @@
     ]
   },
   {
+    "objectID": "ambiente.html",
+    "href": "ambiente.html",
+    "title": "Ambiente Computacional",
+    "section": "",
+    "text": "Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
+    "objectID": "ambiente.html#visão-geral",
+    "href": "ambiente.html#visão-geral",
+    "title": "Ambiente Computacional",
+    "section": "",
+    "text": "Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
+    "objectID": "ambiente.html#softwares-necessários",
+    "href": "ambiente.html#softwares-necessários",
+    "title": "Ambiente Computacional",
+    "section": "Softwares Necessários",
+    "text": "Softwares Necessários\n\n1. R (Linguagem de Programação)\nO R é a principal ferramenta que utilizaremos para análises estatísticas e econométricas.\nInstalação: - Acesse https://cran.r-project.org - Escolha o sistema operacional (Windows, macOS ou Linux) - Baixe e instale a versão mais recente (recomendado: R 4.4.0 ou superior)\n\n\n2. RStudio Desktop\nO RStudio é o ambiente de desenvolvimento integrado (IDE) recomendado para trabalhar com R.\nInstalação: - Acesse https://posit.co/download/rstudio-desktop/ - Baixe a versão gratuita do RStudio Desktop - Instale após ter instalado o R\n\n\n3. Quarto\nO Quarto é o sistema de publicação científica que utilizaremos para criar relatórios reprodutíveis.\nInstalação: - Acesse https://quarto.org/docs/get-started/ - Baixe e instale a versão adequada para seu sistema operacional - O Quarto já vem integrado nas versões mais recentes do RStudio\n\n\n4. Git (Controle de Versão)\nO Git será utilizado para controle de versão e colaboração nos projetos.\nInstalação:\n\nWindows: Baixe em https://git-scm.com/download/win\nmacOS: Instale via Homebrew (brew install git) ou baixe em https://git-scm.com/download/mac\nLinux: Use o gerenciador de pacotes da distribuição (ex: sudo apt install git)\n\n\n\n5. Conta no GitHub\nUtilizaremos o GitHub para compartilhamento de código e entrega de projetos.\nCriação da conta: - Acesse https://github.com - Crie uma conta gratuita - Configure seu perfil com nome e foto",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
+    "objectID": "ambiente.html#pacotes-r-essenciais",
+    "href": "ambiente.html#pacotes-r-essenciais",
+    "title": "Ambiente Computacional",
+    "section": "Pacotes R Essenciais",
+    "text": "Pacotes R Essenciais\nApós instalar o R e RStudio, execute os comandos abaixo no console do R para instalar os pacotes principais:\n# Pacotes para manipulação de dados\ninstall.packages(c(\"tidyverse\", \"dplyr\", \"ggplot2\"))\n\n# Pacotes para dados financeiros\ninstall.packages(c(\"tidyquant\", \"quantmod\", \"PerformanceAnalytics\"))\n\n# Pacotes para econometria\ninstall.packages(c(\"broom\", \"car\", \"lmtest\", \"sandwich\"))\n\n# Pacotes para relatórios\ninstall.packages(c(\"knitr\", \"rmarkdown\", \"DT\"))\n\n# Outros pacotes úteis\ninstall.packages(c(\"here\", \"janitor\", \"skimr\"))",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
+    "objectID": "ambiente.html#configuração-inicial",
+    "href": "ambiente.html#configuração-inicial",
+    "title": "Ambiente Computacional",
+    "section": "Configuração Inicial",
+    "text": "Configuração Inicial\n\nConfiguração do Git\nNo terminal ou Git Bash, execute:\ngit config --global user.name \"Seu Nome\"\ngit config --global user.email \"seu.email@exemplo.com\"\n\n\nTeste da Instalação\nPara verificar se tudo está funcionando:\n\nAbra o RStudio\nCrie um novo arquivo Quarto (File → New File → Quarto Document)\nTeste o código R básico:\n\n# Teste básico\nlibrary(tidyverse)\ndata(mtcars)\nggplot(mtcars, aes(x = mpg, y = hp)) + \n  geom_point() +\n  labs(title = \"Teste de Instalação\")\n\nRenderize o documento clicando em “Render”",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
+    "objectID": "ambiente.html#recursos-adicionais",
+    "href": "ambiente.html#recursos-adicionais",
+    "title": "Ambiente Computacional",
+    "section": "Recursos Adicionais",
+    "text": "Recursos Adicionais\n\nDocumentação Oficial\n\nR Documentation\nRStudio User Guide\nQuarto Documentation\nGit Documentation\n\n\n\nTutoriais Recomendados\n\nR for Data Science (Hadley Wickham)\nHappy Git and GitHub for the useR (Jenny Bryan)\nQuarto Get Started",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
+    "objectID": "ambiente.html#suporte-técnico",
+    "href": "ambiente.html#suporte-técnico",
+    "title": "Ambiente Computacional",
+    "section": "Suporte Técnico",
+    "text": "Suporte Técnico\nEm caso de dificuldades na instalação:\n\nConsulte a documentação oficial dos softwares\nProcure ajuda no Google Classroom da disciplina\nEntre em contato durante o horário de aula ou por e-mail\n\n\n\n\n\n\n\n\nDica Importante\n\n\n\nInstale todos os softwares antes da primeira aula prática para aproveitar melhor o tempo em sala. Em caso de problemas, traga seu laptop para que possamos resolver juntos durante a aula.",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Econometria Aplicada à Finanças 2025.2",
