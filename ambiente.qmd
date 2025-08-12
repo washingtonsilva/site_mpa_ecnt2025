@@ -4,136 +4,250 @@ title: "Ambiente Computacional"
 subtitle: "Instalação e Configuração dos Softwares"
 ---
 
+
+
 ## Visão Geral
 
 Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.
 
+::: {.callout-tip}
+## Importante
+
+- Tente instalar e configurar todos os softwares **antes da primeira aula** para aproveitar melhor o tempo em sala.
+
+- Utilizaremos o RStudio como IDE para a linguagem R e o sistema Quarto devido à sua simplicidade, mas é possível utilizar outros IDEs como Visual Studio Code, Positron, entre outros, caso prefira.
+:::
+
+
+
 ## Softwares Necessários
 
-### 1. R (Linguagem de Programação)
+- Linguagem R 4.5.1 
 
-O R é a principal ferramenta que utilizaremos para análises estatísticas e econométricas.
+- IDE RStudio 
 
-**Instalação:**
-- Acesse [https://cran.r-project.org](https://cran.r-project.org){target="_blank"}
-- Escolha o sistema operacional (Windows, macOS ou Linux)
-- Baixe e instale a versão mais recente (recomendado: R 4.4.0 ou superior)
+- Sistema Quarto 
 
-### 2. RStudio Desktop
+- TinyTeX 
 
-O RStudio é o ambiente de desenvolvimento integrado (IDE) recomendado para trabalhar com R.
+- Git
+    
+    - Git Bash como Terminal do RStudio
 
-**Instalação:**
-- Acesse [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/){target="_blank"}
-- Baixe a versão gratuita do RStudio Desktop
-- Instale após ter instalado o R
+- Conta no GitHub 
 
-### 3. Quarto
 
-O Quarto é o sistema de publicação científica que utilizaremos para criar relatórios reprodutíveis.
 
-**Instalação:**
-- Acesse [https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/){target="_blank"}
-- Baixe e instale a versão adequada para seu sistema operacional
-- O Quarto já vem integrado nas versões mais recentes do RStudio
 
-### 4. Git (Controle de Versão)
+## Linguagem R {#sec-r}
 
-O Git será utilizado para controle de versão e colaboração nos projetos.
+::: {.callout-tip icon="false"}
+## Instalando a Linguagem R 4.5.1
 
-**Instalação:**
+1.  Acesse [https://cloud.r-project.org/](https://cloud.r-project.org/){target="_blank"}
 
-- **Windows:** Baixe em [https://git-scm.com/download/win](https://git-scm.com/download/win){target="_blank"}
-- **macOS:** Instale via Homebrew (`brew install git`) ou baixe em [https://git-scm.com/download/mac](https://git-scm.com/download/mac){target="_blank"}
-- **Linux:** Use o gerenciador de pacotes da distribuição (ex: `sudo apt install git`)
+2.  Selecione o sistema operacional ou, se usar Ms Windows, clique em **Download R for Windows** por exemplo.
 
-### 5. Conta no GitHub
+3.  Na página seguinte clique em **base**
 
-Utilizaremos o GitHub para compartilhamento de código e entrega de projetos.
+4.  Clique em **Download R-4.5.1 for Windows**
 
-**Criação da conta:**
-- Acesse [https://github.com](https://github.com){target="_blank"}
-- Crie uma conta gratuita
-- Configure seu perfil com nome e foto
+5.  Feito o download basta ir clicando em próximo/next até a instalação ser concluída.
+:::
 
-## Pacotes R Essenciais
 
-Após instalar o R e RStudio, execute os comandos abaixo no console do R para instalar os pacotes principais:
 
-```r
-# Pacotes para manipulação de dados
-install.packages(c("tidyverse", "dplyr", "ggplot2"))
+## RStudio {#sec-rstudio}
 
-# Pacotes para dados financeiros
-install.packages(c("tidyquant", "quantmod", "PerformanceAnalytics"))
+::: {.callout-tip icon="false"}
+## Instalando o IDE RStudio
 
-# Pacotes para econometria
-install.packages(c("broom", "car", "lmtest", "sandwich"))
+1.  Acesse [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/){target="_blank"}
 
-# Pacotes para relatórios
-install.packages(c("knitr", "rmarkdown", "DT"))
+2.  Em geral, o site detecta seu sistema operacional e disponibiliza o instalador adequado logo abaixo de `2: Install RStudio`.
 
-# Outros pacotes úteis
-install.packages(c("here", "janitor", "skimr"))
-```
+3.  Clique em `Download RStudio Desktop for Windows` caso seu sistema operacional seja Windows.
 
-## Configuração Inicial
+4. Finalizado o download, basta clicar no arquivo e, em seguida, clicar em em continuar/avançar/next até o início da instalação.
+:::
 
-### Configuração do Git
 
-No terminal ou Git Bash, execute:
 
-```bash
-git config --global user.name "Seu Nome"
-git config --global user.email "seu.email@exemplo.com"
-```
 
-### Teste da Instalação
+## Sistema Quarto {#sec-quarto}
 
-Para verificar se tudo está funcionando:
+::: {.callout-tip icon="false"}
+## Instalando o Sistema de Publicação Quarto
 
-1. **Abra o RStudio**
-2. **Crie um novo arquivo Quarto** (File → New File → Quarto Document)
-3. **Teste o código R básico:**
+1.  Acesse [https://quarto.org/docs/download/](https://quarto.org/docs/download/){target="_blank"}
 
-```r
-# Teste básico
-library(tidyverse)
-data(mtcars)
-ggplot(mtcars, aes(x = mpg, y = hp)) + 
-  geom_point() +
-  labs(title = "Teste de Instalação")
-```
+2.  Clique em `Download Quarto CLI` e, finalizado o download, instale clicando no arquivo.
 
-4. **Renderize o documento** clicando em "Render"
+3. Finalizado o download, basta clicar no arquivo e, em seguida, clicar em em continuar/avançar/next até o início da instalação.
+:::
 
-## Recursos Adicionais
 
-### Documentação Oficial
 
-- [R Documentation](https://www.r-project.org/other-docs.html){target="_blank"}
-- [RStudio User Guide](https://docs.posit.co/ide/user/){target="_blank"}
-- [Quarto Documentation](https://quarto.org/docs/guide/){target="_blank"}
-- [Git Documentation](https://git-scm.com/doc){target="_blank"}
-
-### Tutoriais Recomendados
-
-- [R for Data Science](https://r4ds.hadley.nz/){target="_blank"} (Hadley Wickham)
-- [Happy Git and GitHub for the useR](https://happygitwithr.com/){target="_blank"} (Jenny Bryan)
-- [Quarto Get Started](https://quarto.org/docs/get-started/hello/rstudio.html){target="_blank"}
-
-## Suporte Técnico
-
-Em caso de dificuldades na instalação:
-
-1. **Consulte a documentação oficial** dos softwares
-2. **Procure ajuda no Google Classroom** da disciplina
-3. **Entre em contato** durante o horário de aula ou por e-mail
-
----
+## TinyTeX
 
 ::: {.callout-tip}
-## Dica Importante
+## TinyTeX (necessária para gerar arquivos PDF)
 
-Instale todos os softwares **antes da primeira aula prática** para aproveitar melhor o tempo em sala. Em caso de problemas, traga seu laptop para que possamos resolver juntos durante a aula.
+Para renderizar arquivos **PDF** com Quarto/R é **necessário** instalar a distribuição 
+**TinyTeX** (distribuição LaTeX mínima).
+
+Após ter instalado a linguagem R e o RStudi, no Console R do RStudio, execute:
+
+```{r}
+#| eval: false
+
+# instala o pacote tinytex pelo console do RStudio
+# ou utilize o menu Packages → Install Packages
+install.packages("tinytex")
+
+# instala a distribuição LaTeX mínima
+tinytex::install_tinytex()   
+
+ # verifica se está instalado corretamente
+tinytex::is_tinytex()       
+```
+
+### Manutenção/atualização
+
+```r
+tinytex::tlmgr_update()      # atualiza pacotes LaTeX do TinyTeX
+```
+
+### Teste rápido
+
+Crie um arquivo `hello.qmd` e renderize em **PDF**:
+
+```yaml
+---
+title: "Teste de Renderização PDF"
+format: pdf
+---
+```
+
+Renderize o arquivo clicando no botão **Render** do RStudio ou utilize o 
+terminal Git Bash (é necesário estar no diretório do arquivo):
+
+```bash
+quarto render hello.qmd
+```
 :::
+
+
+
+## Git {#sec-git}
+
+::: {.callout-tip icon="false"}
+## Instalando o Git no Windows
+
+1. Acesse o site oficial do Git: [git-scm.com](https://git-scm.com){target="_blank"}
+
+2. Clique em **Download for Windows**, exibido em um terminal.
+
+3. Após o download, execute o instalador.
+
+4. Siga os passos do instalador, mantenha as configurações padrão sugeridas até o item 5.
+
+5. Há uma excecão, quando chegar na janela de título **Adjusting the name of the initial branch**, marque a opção **Override the defaul** e escreva **main** no campo apropriado.
+
+6. Clique em **Next** nas próximas janelas e finalize a instalação.
+:::
+
+
+
+## Configurando o Git
+
+::: {.callout-tip icon="false"}
+## Configurar o Usuário
+
+1. Abra o **Git Bash** (encontrado no menu Iniciar após a instalação).
+
+2. Configure seu nome de usuário:
+
+```bash
+git config --global user.name "SeuNome"
+```
+:::
+
+
+::: {.callout-tip icon="false"}
+## Configurar o email
+
+3. Configure seu e-mail:
+
+```bash
+git config --global user.email "seuemail@exemplo.com"
+```
+:::
+
+
+::: {.callout-tip icon="false"}
+## Verificando as Configurações
+
+- Para verificar suas configurações, use:
+
+```bash
+git config --list
+```
+:::
+
+
+
+## Git Bash como terminal no RStudio
+
+::: {.callout-tip}
+## RStudio: usando o Git Bash como terminal (Windows)
+
+> - O Git Bash é instalado junto com o Git for Windows. Se não aparecer na lista, reinstale o Git mantendo a opção **Git Bash**. 
+
+1. Abra **RStudio** → **Tools** → **Global Options** → **Terminal**.  
+2. Em **New terminals open with**, selecione **Git Bash**.  
+3. Confirme e **reinicie** o RStudio.
+
+:::
+
+
+
+## GitHub {#sec-github}
+
+::: {.callout-tip icon="false"}
+## Criando uma Conta no GitHub
+
+1. Acesse [github.com](https://github.com){target="_blank"}
+
+2. Clique em **Sign up** para criar uma nova conta.
+
+3. Preencha os campos solicitados:
+
+    - **Username:** Escolha um nome de usuário.
+    - **Email:** Insira seu endereço de e-mail. 
+    - **Password:** Crie uma senha segura.
+
+4. Verifique seu e-mail e siga as instruções para confirmar sua conta.
+:::
+
+
+
+## Tutoriais e Livros Recomendados
+
+- [Quarto Get Started](https://quarto.org/docs/get-started/hello/rstudio.html){target="_blank"}
+- [R for Data Science](https://r4ds.hadley.nz/){target="_blank"} (Hadley Wickham)
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/){target="_blank"} (Jenny Bryan)
+
+
+
+## Documentação Oficial
+
+- [Quarto Documentation](https://quarto.org/docs/guide/){target="_blank"}
+- [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf){target="_blank"}
+- [RStudio User Guide](https://docs.posit.co/ide/user/){target="_blank"}
+- [Git Documentation](https://git-scm.com/doc){target="_blank"}
+
+
+
+
+

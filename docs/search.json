@@ -158,7 +158,7 @@
     "href": "ambiente.html",
     "title": "Ambiente Computacional",
     "section": "",
-    "text": "Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.",
+    "text": "Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.\n\n\n\n\n\n\nImportante\n\n\n\n\nTente instalar e configurar todos os softwares antes da primeira aula para aproveitar melhor o tempo em sala.\nUtilizaremos o RStudio como IDE para a linguagem R e o sistema Quarto devido à sua simplicidade, mas é possível utilizar outros IDEs como Visual Studio Code, Positron, entre outros, caso prefira.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
@@ -169,7 +169,7 @@
     "href": "ambiente.html#visão-geral",
     "title": "Ambiente Computacional",
     "section": "",
-    "text": "Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.",
+    "text": "Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.\n\n\n\n\n\n\nImportante\n\n\n\n\nTente instalar e configurar todos os softwares antes da primeira aula para aproveitar melhor o tempo em sala.\nUtilizaremos o RStudio como IDE para a linguagem R e o sistema Quarto devido à sua simplicidade, mas é possível utilizar outros IDEs como Visual Studio Code, Positron, entre outros, caso prefira.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
@@ -180,51 +180,117 @@
     "href": "ambiente.html#softwares-necessários",
     "title": "Ambiente Computacional",
     "section": "Softwares Necessários",
-    "text": "Softwares Necessários\n\n1. R (Linguagem de Programação)\nO R é a principal ferramenta que utilizaremos para análises estatísticas e econométricas.\nInstalação: - Acesse https://cran.r-project.org - Escolha o sistema operacional (Windows, macOS ou Linux) - Baixe e instale a versão mais recente (recomendado: R 4.4.0 ou superior)\n\n\n2. RStudio Desktop\nO RStudio é o ambiente de desenvolvimento integrado (IDE) recomendado para trabalhar com R.\nInstalação: - Acesse https://posit.co/download/rstudio-desktop/ - Baixe a versão gratuita do RStudio Desktop - Instale após ter instalado o R\n\n\n3. Quarto\nO Quarto é o sistema de publicação científica que utilizaremos para criar relatórios reprodutíveis.\nInstalação: - Acesse https://quarto.org/docs/get-started/ - Baixe e instale a versão adequada para seu sistema operacional - O Quarto já vem integrado nas versões mais recentes do RStudio\n\n\n4. Git (Controle de Versão)\nO Git será utilizado para controle de versão e colaboração nos projetos.\nInstalação:\n\nWindows: Baixe em https://git-scm.com/download/win\nmacOS: Instale via Homebrew (brew install git) ou baixe em https://git-scm.com/download/mac\nLinux: Use o gerenciador de pacotes da distribuição (ex: sudo apt install git)\n\n\n\n5. Conta no GitHub\nUtilizaremos o GitHub para compartilhamento de código e entrega de projetos.\nCriação da conta: - Acesse https://github.com - Crie uma conta gratuita - Configure seu perfil com nome e foto",
+    "text": "Softwares Necessários\n\nLinguagem R 4.5.1\nIDE RStudio\nSistema Quarto\nTinyTeX\nGit\n\nGit Bash como Terminal do RStudio\n\nConta no GitHub",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
     ]
   },
   {
-    "objectID": "ambiente.html#pacotes-r-essenciais",
-    "href": "ambiente.html#pacotes-r-essenciais",
+    "objectID": "ambiente.html#sec-r",
+    "href": "ambiente.html#sec-r",
     "title": "Ambiente Computacional",
-    "section": "Pacotes R Essenciais",
-    "text": "Pacotes R Essenciais\nApós instalar o R e RStudio, execute os comandos abaixo no console do R para instalar os pacotes principais:\n# Pacotes para manipulação de dados\ninstall.packages(c(\"tidyverse\", \"dplyr\", \"ggplot2\"))\n\n# Pacotes para dados financeiros\ninstall.packages(c(\"tidyquant\", \"quantmod\", \"PerformanceAnalytics\"))\n\n# Pacotes para econometria\ninstall.packages(c(\"broom\", \"car\", \"lmtest\", \"sandwich\"))\n\n# Pacotes para relatórios\ninstall.packages(c(\"knitr\", \"rmarkdown\", \"DT\"))\n\n# Outros pacotes úteis\ninstall.packages(c(\"here\", \"janitor\", \"skimr\"))",
+    "section": "Linguagem R",
+    "text": "Linguagem R\n\n\n\n\n\n\nInstalando a Linguagem R 4.5.1\n\n\n\n\nAcesse https://cloud.r-project.org/\nSelecione o sistema operacional ou, se usar Ms Windows, clique em Download R for Windows por exemplo.\nNa página seguinte clique em base\nClique em Download R-4.5.1 for Windows\nFeito o download basta ir clicando em próximo/next até a instalação ser concluída.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
     ]
   },
   {
-    "objectID": "ambiente.html#configuração-inicial",
-    "href": "ambiente.html#configuração-inicial",
+    "objectID": "ambiente.html#sec-rstudio",
+    "href": "ambiente.html#sec-rstudio",
     "title": "Ambiente Computacional",
-    "section": "Configuração Inicial",
-    "text": "Configuração Inicial\n\nConfiguração do Git\nNo terminal ou Git Bash, execute:\ngit config --global user.name \"Seu Nome\"\ngit config --global user.email \"seu.email@exemplo.com\"\n\n\nTeste da Instalação\nPara verificar se tudo está funcionando:\n\nAbra o RStudio\nCrie um novo arquivo Quarto (File → New File → Quarto Document)\nTeste o código R básico:\n\n# Teste básico\nlibrary(tidyverse)\ndata(mtcars)\nggplot(mtcars, aes(x = mpg, y = hp)) + \n  geom_point() +\n  labs(title = \"Teste de Instalação\")\n\nRenderize o documento clicando em “Render”",
+    "section": "RStudio",
+    "text": "RStudio\n\n\n\n\n\n\nInstalando o IDE RStudio\n\n\n\n\nAcesse https://posit.co/download/rstudio-desktop/\nEm geral, o site detecta seu sistema operacional e disponibiliza o instalador adequado logo abaixo de 2: Install RStudio.\nClique em Download RStudio Desktop for Windows caso seu sistema operacional seja Windows.\nFinalizado o download, basta clicar no arquivo e, em seguida, clicar em em continuar/avançar/next até o início da instalação.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
     ]
   },
   {
-    "objectID": "ambiente.html#recursos-adicionais",
-    "href": "ambiente.html#recursos-adicionais",
+    "objectID": "ambiente.html#sec-quarto",
+    "href": "ambiente.html#sec-quarto",
     "title": "Ambiente Computacional",
-    "section": "Recursos Adicionais",
-    "text": "Recursos Adicionais\n\nDocumentação Oficial\n\nR Documentation\nRStudio User Guide\nQuarto Documentation\nGit Documentation\n\n\n\nTutoriais Recomendados\n\nR for Data Science (Hadley Wickham)\nHappy Git and GitHub for the useR (Jenny Bryan)\nQuarto Get Started",
+    "section": "Sistema Quarto",
+    "text": "Sistema Quarto\n\n\n\n\n\n\nInstalando o Sistema de Publicação Quarto\n\n\n\n\nAcesse https://quarto.org/docs/download/\nClique em Download Quarto CLI e, finalizado o download, instale clicando no arquivo.\nFinalizado o download, basta clicar no arquivo e, em seguida, clicar em em continuar/avançar/next até o início da instalação.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
     ]
   },
   {
-    "objectID": "ambiente.html#suporte-técnico",
-    "href": "ambiente.html#suporte-técnico",
+    "objectID": "ambiente.html#tinytex",
+    "href": "ambiente.html#tinytex",
     "title": "Ambiente Computacional",
-    "section": "Suporte Técnico",
-    "text": "Suporte Técnico\nEm caso de dificuldades na instalação:\n\nConsulte a documentação oficial dos softwares\nProcure ajuda no Google Classroom da disciplina\nEntre em contato durante o horário de aula ou por e-mail\n\n\n\n\n\n\n\n\nDica Importante\n\n\n\nInstale todos os softwares antes da primeira aula prática para aproveitar melhor o tempo em sala. Em caso de problemas, traga seu laptop para que possamos resolver juntos durante a aula.",
+    "section": "TinyTeX",
+    "text": "TinyTeX\n\n\n\n\n\n\nTinyTeX (necessária para gerar arquivos PDF)\n\n\n\nPara renderizar arquivos PDF com Quarto/R é necessário instalar a distribuição TinyTeX (distribuição LaTeX mínima).\nApós ter instalado a linguagem R e o RStudi, no Console R do RStudio, execute:\n\n# instala o pacote tinytex pelo console do RStudio\n# ou utilize o menu Packages → Install Packages\ninstall.packages(\"tinytex\")\n\n# instala a distribuição LaTeX mínima\ntinytex::install_tinytex()   \n\n # verifica se está instalado corretamente\ntinytex::is_tinytex()       \n\n\nManutenção/atualização\ntinytex::tlmgr_update()      # atualiza pacotes LaTeX do TinyTeX\n\n\nTeste rápido\nCrie um arquivo hello.qmd e renderize em PDF:\n---\ntitle: \"Teste de Renderização PDF\"\nformat: pdf\n---\nRenderize o arquivo clicando no botão Render do RStudio ou utilize o terminal Git Bash (é necesário estar no diretório do arquivo):\nquarto render hello.qmd",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
+    "objectID": "ambiente.html#sec-git",
+    "href": "ambiente.html#sec-git",
+    "title": "Ambiente Computacional",
+    "section": "Git",
+    "text": "Git\n\n\n\n\n\n\nInstalando o Git no Windows\n\n\n\n\nAcesse o site oficial do Git: git-scm.com\nClique em Download for Windows, exibido em um terminal.\nApós o download, execute o instalador.\nSiga os passos do instalador, mantenha as configurações padrão sugeridas até o item 5.\nHá uma excecão, quando chegar na janela de título Adjusting the name of the initial branch, marque a opção Override the defaul e escreva main no campo apropriado.\nClique em Next nas próximas janelas e finalize a instalação.",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
+    "objectID": "ambiente.html#configurando-o-git",
+    "href": "ambiente.html#configurando-o-git",
+    "title": "Ambiente Computacional",
+    "section": "Configurando o Git",
+    "text": "Configurando o Git\n\n\n\n\n\n\nConfigurar o Usuário\n\n\n\n\nAbra o Git Bash (encontrado no menu Iniciar após a instalação).\nConfigure seu nome de usuário:\n\ngit config --global user.name \"SeuNome\"\n\n\n\n\n\n\n\n\nConfigurar o email\n\n\n\n\nConfigure seu e-mail:\n\ngit config --global user.email \"seuemail@exemplo.com\"\n\n\n\n\n\n\n\n\nVerificando as Configurações\n\n\n\n\nPara verificar suas configurações, use:\n\ngit config --list",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
+    "objectID": "ambiente.html#git-bash-como-terminal-no-rstudio",
+    "href": "ambiente.html#git-bash-como-terminal-no-rstudio",
+    "title": "Ambiente Computacional",
+    "section": "Git Bash como terminal no RStudio",
+    "text": "Git Bash como terminal no RStudio\n\n\n\n\n\n\nRStudio: usando o Git Bash como terminal (Windows)\n\n\n\n\n\nO Git Bash é instalado junto com o Git for Windows. Se não aparecer na lista, reinstale o Git mantendo a opção Git Bash.\n\n\n\nAbra RStudio → Tools → Global Options → Terminal.\n\nEm New terminals open with, selecione Git Bash.\n\nConfirme e reinicie o RStudio.",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
+    "objectID": "ambiente.html#sec-github",
+    "href": "ambiente.html#sec-github",
+    "title": "Ambiente Computacional",
+    "section": "GitHub",
+    "text": "GitHub\n\n\n\n\n\n\nCriando uma Conta no GitHub\n\n\n\n\nAcesse github.com\nClique em Sign up para criar uma nova conta.\nPreencha os campos solicitados:\n\nUsername: Escolha um nome de usuário.\nEmail: Insira seu endereço de e-mail.\nPassword: Crie uma senha segura.\n\nVerifique seu e-mail e siga as instruções para confirmar sua conta.",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
+    "objectID": "ambiente.html#tutoriais-e-livros-recomendados",
+    "href": "ambiente.html#tutoriais-e-livros-recomendados",
+    "title": "Ambiente Computacional",
+    "section": "Tutoriais e Livros Recomendados",
+    "text": "Tutoriais e Livros Recomendados\n\nQuarto Get Started\nR for Data Science (Hadley Wickham)\nHappy Git and GitHub for the useR (Jenny Bryan)",
+    "crumbs": [
+      "Início",
+      "Ambiente Computacional"
+    ]
+  },
+  {
+    "objectID": "ambiente.html#documentação-oficial",
+    "href": "ambiente.html#documentação-oficial",
+    "title": "Ambiente Computacional",
+    "section": "Documentação Oficial",
+    "text": "Documentação Oficial\n\nQuarto Documentation\nAn Introduction to R\nRStudio User Guide\nGit Documentation",
     "crumbs": [
       "Início",
       "Ambiente Computacional"

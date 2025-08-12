@@ -206,26 +206,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#visão-geral" id="toc-visão-geral" class="nav-link active" data-scroll-target="#visão-geral">Visão Geral</a></li>
-  <li><a href="#softwares-necessários" id="toc-softwares-necessários" class="nav-link" data-scroll-target="#softwares-necessários">Softwares Necessários</a>
-  <ul class="collapse">
-  <li><a href="#r-linguagem-de-programação" id="toc-r-linguagem-de-programação" class="nav-link" data-scroll-target="#r-linguagem-de-programação">1. R (Linguagem de Programação)</a></li>
-  <li><a href="#rstudio-desktop" id="toc-rstudio-desktop" class="nav-link" data-scroll-target="#rstudio-desktop">2. RStudio Desktop</a></li>
-  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">3. Quarto</a></li>
-  <li><a href="#git-controle-de-versão" id="toc-git-controle-de-versão" class="nav-link" data-scroll-target="#git-controle-de-versão">4. Git (Controle de Versão)</a></li>
-  <li><a href="#conta-no-github" id="toc-conta-no-github" class="nav-link" data-scroll-target="#conta-no-github">5. Conta no GitHub</a></li>
-  </ul></li>
-  <li><a href="#pacotes-r-essenciais" id="toc-pacotes-r-essenciais" class="nav-link" data-scroll-target="#pacotes-r-essenciais">Pacotes R Essenciais</a></li>
-  <li><a href="#configuração-inicial" id="toc-configuração-inicial" class="nav-link" data-scroll-target="#configuração-inicial">Configuração Inicial</a>
-  <ul class="collapse">
-  <li><a href="#configuração-do-git" id="toc-configuração-do-git" class="nav-link" data-scroll-target="#configuração-do-git">Configuração do Git</a></li>
-  <li><a href="#teste-da-instalação" id="toc-teste-da-instalação" class="nav-link" data-scroll-target="#teste-da-instalação">Teste da Instalação</a></li>
-  </ul></li>
-  <li><a href="#recursos-adicionais" id="toc-recursos-adicionais" class="nav-link" data-scroll-target="#recursos-adicionais">Recursos Adicionais</a>
-  <ul class="collapse">
+  <li><a href="#softwares-necessários" id="toc-softwares-necessários" class="nav-link" data-scroll-target="#softwares-necessários">Softwares Necessários</a></li>
+  <li><a href="#sec-r" id="toc-sec-r" class="nav-link" data-scroll-target="#sec-r">Linguagem R</a></li>
+  <li><a href="#sec-rstudio" id="toc-sec-rstudio" class="nav-link" data-scroll-target="#sec-rstudio">RStudio</a></li>
+  <li><a href="#sec-quarto" id="toc-sec-quarto" class="nav-link" data-scroll-target="#sec-quarto">Sistema Quarto</a></li>
+  <li><a href="#tinytex" id="toc-tinytex" class="nav-link" data-scroll-target="#tinytex">TinyTeX</a></li>
+  <li><a href="#sec-git" id="toc-sec-git" class="nav-link" data-scroll-target="#sec-git">Git</a></li>
+  <li><a href="#configurando-o-git" id="toc-configurando-o-git" class="nav-link" data-scroll-target="#configurando-o-git">Configurando o Git</a></li>
+  <li><a href="#git-bash-como-terminal-no-rstudio" id="toc-git-bash-como-terminal-no-rstudio" class="nav-link" data-scroll-target="#git-bash-como-terminal-no-rstudio">Git Bash como terminal no RStudio</a></li>
+  <li><a href="#sec-github" id="toc-sec-github" class="nav-link" data-scroll-target="#sec-github">GitHub</a></li>
+  <li><a href="#tutoriais-e-livros-recomendados" id="toc-tutoriais-e-livros-recomendados" class="nav-link" data-scroll-target="#tutoriais-e-livros-recomendados">Tutoriais e Livros Recomendados</a></li>
   <li><a href="#documentação-oficial" id="toc-documentação-oficial" class="nav-link" data-scroll-target="#documentação-oficial">Documentação Oficial</a></li>
-  <li><a href="#tutoriais-recomendados" id="toc-tutoriais-recomendados" class="nav-link" data-scroll-target="#tutoriais-recomendados">Tutoriais Recomendados</a></li>
-  </ul></li>
-  <li><a href="#suporte-técnico" id="toc-suporte-técnico" class="nav-link" data-scroll-target="#suporte-técnico">Suporte Técnico</a></li>
   </ul>
 </nav>
     </div>
@@ -255,127 +246,286 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="visão-geral" class="level2">
 <h2 class="anchored" data-anchor-id="visão-geral">Visão Geral</h2>
 <p>Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.</p>
-</section>
-<section id="softwares-necessários" class="level2">
-<h2 class="anchored" data-anchor-id="softwares-necessários">Softwares Necessários</h2>
-<section id="r-linguagem-de-programação" class="level3">
-<h3 class="anchored" data-anchor-id="r-linguagem-de-programação">1. R (Linguagem de Programação)</h3>
-<p>O R é a principal ferramenta que utilizaremos para análises estatísticas e econométricas.</p>
-<p><strong>Instalação:</strong> - Acesse <a href="https://cran.r-project.org" target="_blank">https://cran.r-project.org</a> - Escolha o sistema operacional (Windows, macOS ou Linux) - Baixe e instale a versão mais recente (recomendado: R 4.4.0 ou superior)</p>
-</section>
-<section id="rstudio-desktop" class="level3">
-<h3 class="anchored" data-anchor-id="rstudio-desktop">2. RStudio Desktop</h3>
-<p>O RStudio é o ambiente de desenvolvimento integrado (IDE) recomendado para trabalhar com R.</p>
-<p><strong>Instalação:</strong> - Acesse <a href="https://posit.co/download/rstudio-desktop/" target="_blank">https://posit.co/download/rstudio-desktop/</a> - Baixe a versão gratuita do RStudio Desktop - Instale após ter instalado o R</p>
-</section>
-<section id="quarto" class="level3">
-<h3 class="anchored" data-anchor-id="quarto">3. Quarto</h3>
-<p>O Quarto é o sistema de publicação científica que utilizaremos para criar relatórios reprodutíveis.</p>
-<p><strong>Instalação:</strong> - Acesse <a href="https://quarto.org/docs/get-started/" target="_blank">https://quarto.org/docs/get-started/</a> - Baixe e instale a versão adequada para seu sistema operacional - O Quarto já vem integrado nas versões mais recentes do RStudio</p>
-</section>
-<section id="git-controle-de-versão" class="level3">
-<h3 class="anchored" data-anchor-id="git-controle-de-versão">4. Git (Controle de Versão)</h3>
-<p>O Git será utilizado para controle de versão e colaboração nos projetos.</p>
-<p><strong>Instalação:</strong></p>
-<ul>
-<li><strong>Windows:</strong> Baixe em <a href="https://git-scm.com/download/win" target="_blank">https://git-scm.com/download/win</a></li>
-<li><strong>macOS:</strong> Instale via Homebrew (<code>brew install git</code>) ou baixe em <a href="https://git-scm.com/download/mac" target="_blank">https://git-scm.com/download/mac</a></li>
-<li><strong>Linux:</strong> Use o gerenciador de pacotes da distribuição (ex: <code>sudo apt install git</code>)</li>
-</ul>
-</section>
-<section id="conta-no-github" class="level3">
-<h3 class="anchored" data-anchor-id="conta-no-github">5. Conta no GitHub</h3>
-<p>Utilizaremos o GitHub para compartilhamento de código e entrega de projetos.</p>
-<p><strong>Criação da conta:</strong> - Acesse <a href="https://github.com" target="_blank">https://github.com</a> - Crie uma conta gratuita - Configure seu perfil com nome e foto</p>
-</section>
-</section>
-<section id="pacotes-r-essenciais" class="level2">
-<h2 class="anchored" data-anchor-id="pacotes-r-essenciais">Pacotes R Essenciais</h2>
-<p>Após instalar o R e RStudio, execute os comandos abaixo no console do R para instalar os pacotes principais:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pacotes para manipulação de dados</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"tidyverse"</span>, <span class="st">"dplyr"</span>, <span class="st">"ggplot2"</span>))</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Pacotes para dados financeiros</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"tidyquant"</span>, <span class="st">"quantmod"</span>, <span class="st">"PerformanceAnalytics"</span>))</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Pacotes para econometria</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"broom"</span>, <span class="st">"car"</span>, <span class="st">"lmtest"</span>, <span class="st">"sandwich"</span>))</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Pacotes para relatórios</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"knitr"</span>, <span class="st">"rmarkdown"</span>, <span class="st">"DT"</span>))</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Outros pacotes úteis</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"here"</span>, <span class="st">"janitor"</span>, <span class="st">"skimr"</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="configuração-inicial" class="level2">
-<h2 class="anchored" data-anchor-id="configuração-inicial">Configuração Inicial</h2>
-<section id="configuração-do-git" class="level3">
-<h3 class="anchored" data-anchor-id="configuração-do-git">Configuração do Git</h3>
-<p>No terminal ou Git Bash, execute:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Seu Nome"</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"seu.email@exemplo.com"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="teste-da-instalação" class="level3">
-<h3 class="anchored" data-anchor-id="teste-da-instalação">Teste da Instalação</h3>
-<p>Para verificar se tudo está funcionando:</p>
-<ol type="1">
-<li><strong>Abra o RStudio</strong></li>
-<li><strong>Crie um novo arquivo Quarto</strong> (File → New File → Quarto Document)</li>
-<li><strong>Teste o código R básico:</strong></li>
-</ol>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Teste básico</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(mtcars)</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(mtcars, <span class="fu">aes</span>(<span class="at">x =</span> mpg, <span class="at">y =</span> hp)) <span class="sc">+</span> </span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Teste de Instalação"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ol start="4" type="1">
-<li><strong>Renderize o documento</strong> clicando em “Render”</li>
-</ol>
-</section>
-</section>
-<section id="recursos-adicionais" class="level2">
-<h2 class="anchored" data-anchor-id="recursos-adicionais">Recursos Adicionais</h2>
-<section id="documentação-oficial" class="level3">
-<h3 class="anchored" data-anchor-id="documentação-oficial">Documentação Oficial</h3>
-<ul>
-<li><a href="https://www.r-project.org/other-docs.html" target="_blank">R Documentation</a></li>
-<li><a href="https://docs.posit.co/ide/user/" target="_blank">RStudio User Guide</a></li>
-<li><a href="https://quarto.org/docs/guide/" target="_blank">Quarto Documentation</a></li>
-<li><a href="https://git-scm.com/doc" target="_blank">Git Documentation</a></li>
-</ul>
-</section>
-<section id="tutoriais-recomendados" class="level3">
-<h3 class="anchored" data-anchor-id="tutoriais-recomendados">Tutoriais Recomendados</h3>
-<ul>
-<li><a href="https://r4ds.hadley.nz/" target="_blank">R for Data Science</a> (Hadley Wickham)</li>
-<li><a href="https://happygitwithr.com/" target="_blank">Happy Git and GitHub for the useR</a> (Jenny Bryan)</li>
-<li><a href="https://quarto.org/docs/get-started/hello/rstudio.html" target="_blank">Quarto Get Started</a></li>
-</ul>
-</section>
-</section>
-<section id="suporte-técnico" class="level2">
-<h2 class="anchored" data-anchor-id="suporte-técnico">Suporte Técnico</h2>
-<p>Em caso de dificuldades na instalação:</p>
-<ol type="1">
-<li><strong>Consulte a documentação oficial</strong> dos softwares</li>
-<li><strong>Procure ajuda no Google Classroom</strong> da disciplina</li>
-<li><strong>Entre em contato</strong> durante o horário de aula ou por e-mail</li>
-</ol>
-<hr>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Dica Importante
+Importante
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Instale todos os softwares <strong>antes da primeira aula prática</strong> para aproveitar melhor o tempo em sala. Em caso de problemas, traga seu laptop para que possamos resolver juntos durante a aula.</p>
+<ul>
+<li><p>Tente instalar e configurar todos os softwares <strong>antes da primeira aula</strong> para aproveitar melhor o tempo em sala.</p></li>
+<li><p>Utilizaremos o RStudio como IDE para a linguagem R e o sistema Quarto devido à sua simplicidade, mas é possível utilizar outros IDEs como Visual Studio Code, Positron, entre outros, caso prefira.</p></li>
+</ul>
 </div>
 </div>
+</section>
+<section id="softwares-necessários" class="level2">
+<h2 class="anchored" data-anchor-id="softwares-necessários">Softwares Necessários</h2>
+<ul>
+<li><p>Linguagem R 4.5.1</p></li>
+<li><p>IDE RStudio</p></li>
+<li><p>Sistema Quarto</p></li>
+<li><p>TinyTeX</p></li>
+<li><p>Git</p>
+<ul>
+<li>Git Bash como Terminal do RStudio</li>
+</ul></li>
+<li><p>Conta no GitHub</p></li>
+</ul>
+</section>
+<section id="sec-r" class="level2">
+<h2 class="anchored" data-anchor-id="sec-r">Linguagem R</h2>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Instalando a Linguagem R 4.5.1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>Acesse <a href="https://cloud.r-project.org/" target="_blank">https://cloud.r-project.org/</a></p></li>
+<li><p>Selecione o sistema operacional ou, se usar Ms Windows, clique em <strong>Download R for Windows</strong> por exemplo.</p></li>
+<li><p>Na página seguinte clique em <strong>base</strong></p></li>
+<li><p>Clique em <strong>Download R-4.5.1 for Windows</strong></p></li>
+<li><p>Feito o download basta ir clicando em próximo/next até a instalação ser concluída.</p></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="sec-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="sec-rstudio">RStudio</h2>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Instalando o IDE RStudio
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>Acesse <a href="https://posit.co/download/rstudio-desktop/" target="_blank">https://posit.co/download/rstudio-desktop/</a></p></li>
+<li><p>Em geral, o site detecta seu sistema operacional e disponibiliza o instalador adequado logo abaixo de <code>2: Install RStudio</code>.</p></li>
+<li><p>Clique em <code>Download RStudio Desktop for Windows</code> caso seu sistema operacional seja Windows.</p></li>
+<li><p>Finalizado o download, basta clicar no arquivo e, em seguida, clicar em em continuar/avançar/next até o início da instalação.</p></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="sec-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="sec-quarto">Sistema Quarto</h2>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Instalando o Sistema de Publicação Quarto
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>Acesse <a href="https://quarto.org/docs/download/" target="_blank">https://quarto.org/docs/download/</a></p></li>
+<li><p>Clique em <code>Download Quarto CLI</code> e, finalizado o download, instale clicando no arquivo.</p></li>
+<li><p>Finalizado o download, basta clicar no arquivo e, em seguida, clicar em em continuar/avançar/next até o início da instalação.</p></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="tinytex" class="level2">
+<h2 class="anchored" data-anchor-id="tinytex">TinyTeX</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+TinyTeX (necessária para gerar arquivos PDF)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Para renderizar arquivos <strong>PDF</strong> com Quarto/R é <strong>necessário</strong> instalar a distribuição <strong>TinyTeX</strong> (distribuição LaTeX mínima).</p>
+<p>Após ter instalado a linguagem R e o RStudi, no Console R do RStudio, execute:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># instala o pacote tinytex pelo console do RStudio</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># ou utilize o menu Packages → Install Packages</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"tinytex"</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># instala a distribuição LaTeX mínima</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>tinytex<span class="sc">::</span><span class="fu">install_tinytex</span>()   </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a> <span class="co"># verifica se está instalado corretamente</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>tinytex<span class="sc">::</span><span class="fu">is_tinytex</span>()       </span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="manutençãoatualização" class="level3">
+<h3 class="anchored" data-anchor-id="manutençãoatualização">Manutenção/atualização</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>tinytex<span class="sc">::</span><span class="fu">tlmgr_update</span>()      <span class="co"># atualiza pacotes LaTeX do TinyTeX</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="teste-rápido" class="level3">
+<h3 class="anchored" data-anchor-id="teste-rápido">Teste rápido</h3>
+<p>Crie um arquivo <code>hello.qmd</code> e renderize em <strong>PDF</strong>:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Teste de Renderização PDF"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> pdf</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Renderize o arquivo clicando no botão <strong>Render</strong> do RStudio ou utilize o terminal Git Bash (é necesário estar no diretório do arquivo):</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render hello.qmd</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</div>
+</div>
+</section>
+<section id="sec-git" class="level2">
+<h2 class="anchored" data-anchor-id="sec-git">Git</h2>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Instalando o Git no Windows
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>Acesse o site oficial do Git: <a href="https://git-scm.com" target="_blank">git-scm.com</a></p></li>
+<li><p>Clique em <strong>Download for Windows</strong>, exibido em um terminal.</p></li>
+<li><p>Após o download, execute o instalador.</p></li>
+<li><p>Siga os passos do instalador, mantenha as configurações padrão sugeridas até o item 5.</p></li>
+<li><p>Há uma excecão, quando chegar na janela de título <strong>Adjusting the name of the initial branch</strong>, marque a opção <strong>Override the defaul</strong> e escreva <strong>main</strong> no campo apropriado.</p></li>
+<li><p>Clique em <strong>Next</strong> nas próximas janelas e finalize a instalação.</p></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="configurando-o-git" class="level2">
+<h2 class="anchored" data-anchor-id="configurando-o-git">Configurando o Git</h2>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Configurar o Usuário
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>Abra o <strong>Git Bash</strong> (encontrado no menu Iniciar após a instalação).</p></li>
+<li><p>Configure seu nome de usuário:</p></li>
+</ol>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"SeuNome"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Configurar o email
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol start="3" type="1">
+<li>Configure seu e-mail:</li>
+</ol>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"seuemail@exemplo.com"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Verificando as Configurações
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Para verificar suas configurações, use:</li>
+</ul>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--list</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</section>
+<section id="git-bash-como-terminal-no-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="git-bash-como-terminal-no-rstudio">Git Bash como terminal no RStudio</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+RStudio: usando o Git Bash como terminal (Windows)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<blockquote class="blockquote">
+<ul>
+<li>O Git Bash é instalado junto com o Git for Windows. Se não aparecer na lista, reinstale o Git mantendo a opção <strong>Git Bash</strong>.</li>
+</ul>
+</blockquote>
+<ol type="1">
+<li>Abra <strong>RStudio</strong> → <strong>Tools</strong> → <strong>Global Options</strong> → <strong>Terminal</strong>.<br>
+</li>
+<li>Em <strong>New terminals open with</strong>, selecione <strong>Git Bash</strong>.<br>
+</li>
+<li>Confirme e <strong>reinicie</strong> o RStudio.</li>
+</ol>
+</div>
+</div>
+</section>
+<section id="sec-github" class="level2">
+<h2 class="anchored" data-anchor-id="sec-github">GitHub</h2>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Criando uma Conta no GitHub
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>Acesse <a href="https://github.com" target="_blank">github.com</a></p></li>
+<li><p>Clique em <strong>Sign up</strong> para criar uma nova conta.</p></li>
+<li><p>Preencha os campos solicitados:</p>
+<ul>
+<li><strong>Username:</strong> Escolha um nome de usuário.</li>
+<li><strong>Email:</strong> Insira seu endereço de e-mail.</li>
+<li><strong>Password:</strong> Crie uma senha segura.</li>
+</ul></li>
+<li><p>Verifique seu e-mail e siga as instruções para confirmar sua conta.</p></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="tutoriais-e-livros-recomendados" class="level2">
+<h2 class="anchored" data-anchor-id="tutoriais-e-livros-recomendados">Tutoriais e Livros Recomendados</h2>
+<ul>
+<li><a href="https://quarto.org/docs/get-started/hello/rstudio.html" target="_blank">Quarto Get Started</a></li>
+<li><a href="https://r4ds.hadley.nz/" target="_blank">R for Data Science</a> (Hadley Wickham)</li>
+<li><a href="https://happygitwithr.com/" target="_blank">Happy Git and GitHub for the useR</a> (Jenny Bryan)</li>
+</ul>
+</section>
+<section id="documentação-oficial" class="level2">
+<h2 class="anchored" data-anchor-id="documentação-oficial">Documentação Oficial</h2>
+<ul>
+<li><a href="https://quarto.org/docs/guide/" target="_blank">Quarto Documentation</a></li>
+<li><a href="https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf" target="_blank">An Introduction to R</a></li>
+<li><a href="https://docs.posit.co/ide/user/" target="_blank">RStudio User Guide</a></li>
+<li><a href="https://git-scm.com/doc" target="_blank">Git Documentation</a></li>
+</ul>
 
 
 </section>
