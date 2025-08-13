@@ -34,7 +34,7 @@ Trata-se de um planejamento e pode ser alterado conforme o andamento da discipli
 
 1. **Avaliação 1 (33 pontos)** — exercícios semanais realizados em aula. 
 
-2. **Avaliação 2 (33 pontos)** — teórico-prática.
+2. **Avaliação 2 (33 pontos)** — teórico-prática
 
 3. **Avaliação 3 (34 pontos)** — **projeto empírico reprodutível**, individual ou em dupla/trio, desenvolvido ao longo do semestre. 
 
@@ -61,7 +61,7 @@ O trabalho deve demonstrar aplicação correta dos conceitos e da metodologia, i
     4. Resultados (tabelas e/ou gráficos devem ser gerados com código e conter breve interpretação)  
     5. Conclusões (resumo dos achados e possíveis limitações)  
     6. Referências bibliográficas  
-  - Código **R** devidamente comentado, suficiente para reproduzir os resultados 
+  - Código em **R** devidamente comentado, suficiente para reproduzir os resultados 
   apresentados no relatório.  
   - Publicação em repositório **GitHub** 
 
@@ -172,6 +172,13 @@ Computação científica reprodutível com R, Git/GitHub e Quarto. Fundamentos d
    - Planejamento, execução e documentação.
    - Integração dos métodos estudados em relatório e apresentação.
 
+8. **Tópicos Extras** (Se houver tempo)
+
+   - Regressão Robusta.
+   - Regressão Quantílica.
+   - Regressão LASSO.
+
+
 
 
 ## Recursos Didáticos e Materiais de Estudo
@@ -222,15 +229,15 @@ Trata-se apenas de um planejamento e, como todo planejamento, pode ser alterado 
 | 4    | 09/09/2025 | Propriedades dos estimadores e inferência estatística (testes e intervalos). Introdução ao CAPM     |
 | 5    | 16/09/2025 | Hipóteses, Diagnóstico e Soluções                                                                   |
 | 6    | 23/09/2025 | Hipóteses, Diagnóstico e Soluções (continuação)                                                     |
-| 7    | 30/09/2025 | Aplicações empíricas: CAPM, Fama-French, Fama-MacBeth                                                |
+| 7    | 30/09/2025 | Aplicações empíricas: CAPM, Fama-French, Fama-MacBeth                                               |
 | 8    | 07/10/2025 | Modelos de Equações simultâneas                                                                     |
 | 9    | 14/10/2025 | Modelos de Equações simultâneas (continuação)                                                       |
 | 10   | 21/10/2025 | **Avaliação 2 (intermediária)**                                                                     |
 | 11   | 28/10/2025 | Modelos não lineares                                                                                |
 | 12   | 04/11/2025 | Modelos não lineares (continuação)                                                                  |
 | 13   | 11/11/2025 | Modelos não lineares (continuação)                                                                  |
-| 14   | 18/11/2025 | **Tópico Extra:** Regressão quantílica. Encerramento e tópicos adicionais                           |
-| 15   | 25/11/2025 | **Avaliação 3 (final) — Apresentações do projeto empírico**                                         |
+| 14   | 18/11/2025 | **Tópicos Extras:** Regressão robusta, Regressão quantílica, Regressão LASSO                        |
+| 15   | 25/11/2025 | **Avaliação 3 (final) — Apresentações do projeto empírico**                                         |                   
 
 
 
