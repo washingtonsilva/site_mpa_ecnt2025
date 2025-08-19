@@ -15,7 +15,12 @@ artigos, e outros recursos que poderão ser disponibilizados.
 
 - **Tópicos:**
   
-  - Apresentação da disciplina
+  - Apresentações
+  - Apresentação da Disciplina
+  - Ambiente Computacional
+  - Projeto RStudio para a Disciplina
+  - Sessão sobre Sistema Quarto, RStudio, Linguagem R e Git/GitHub
+  - Conheça e Utilize o Terminal Git Bash
 
 - **Slides:**
 
@@ -25,7 +30,20 @@ artigos, e outros recursos que poderão ser disponibilizados.
   Clique no símbolo > à direita ou use as teclas: seta para direita →, espaço, 
   ou letra "n" para avançar. Pressione "F" para modo de tela cheia e "Esc" 
   para sair.
-  :::  
+  ::: 
+
+  <iframe src="/slides/slides_aula01.html" width="100%" height="450px"></iframe>
+  
+
+- **Arquivo quarto**
+
+  - [01-relatorio (.zip)](arquivos/01-relatorio.zip)
+
+
+- **Arquivo de dados*
+
+  - [dados-simulados (.zip)](arquivos/dados-simulados.zip)
+
   
 
 
