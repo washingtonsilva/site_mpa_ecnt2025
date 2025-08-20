@@ -40,9 +40,9 @@ artigos, e outros recursos que poderão ser disponibilizados.
   - [01-relatorio (.zip)](arquivos/01-relatorio.zip)
 
 
-- **Arquivo de dados*
+- **Arquivo de dados**
 
-  - [dados-simulados (.zip)](arquivos/dados-simulados.zip)
+  - [dados-simulados (.zip)](slides/dados.zip)
 
   
 
