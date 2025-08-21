@@ -17,10 +17,8 @@ artigos, e outros recursos que poderão ser disponibilizados.
   
   - Apresentações
   - Apresentação da Disciplina
-  - Ambiente Computacional
-  - Projeto RStudio para a Disciplina
-  - Sessão sobre Sistema Quarto, RStudio, Linguagem R e Git/GitHub
-  - Conheça e Utilize o Terminal Git Bash
+  - Ambiente Computacional - instalação e Configuração
+
 
 - **Slides:**
 
