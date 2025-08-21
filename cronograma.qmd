@@ -42,7 +42,7 @@ artigos, e outros recursos que poderão ser disponibilizados.
 
 - **Arquivo de dados**
 
-  - [dados-simulados (.zip)](slides/dados.zip)
+  - [dados (.zip)](arquivos/dados.zip)
 
   
 
