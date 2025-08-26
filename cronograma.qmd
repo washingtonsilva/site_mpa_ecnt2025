@@ -42,7 +42,45 @@ artigos, e outros recursos que poderão ser disponibilizados.
 
   - [dados (.zip)](arquivos/dados.zip)
 
+
+
+
+# Semana 2
+
+## Aula 2 (26/08/2025) 
+
+- **Tópicos:**
   
+  - Curso Intensivo sobre as Ferramentas:
+    - Git e GitHub
+    - Introdução ao Sistema 
+    - Linguagem R
+  - Sessão Prática
+
+
+- **Slides:**
+
+  ::: {.callout-tip}
+  ## Para navegar e visualizar 
+  
+  Clique no símbolo > à direita ou use as teclas: seta para direita →, espaço, 
+  ou letra "n" para avançar. Pressione "F" para modo de tela cheia e "Esc" 
+  para sair.
+  ::: 
+
+  <iframe src="/slides/slides_aula02.html" width="100%" height="450px"></iframe>
+  
+
+- **Arquivo quarto: Relatório**
+
+  - [02-relatorio (.zip)](arquivos/02-relatorio.zip)
+
+
+- **Arquivo quarto: Atividade 1**
+
+  - [01-atividade (.zip)](arquivos/01-atividade.zip)
+
+
 
 
   

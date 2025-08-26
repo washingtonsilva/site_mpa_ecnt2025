@@ -125,7 +125,7 @@
     "href": "programa.html#plano-de-aula",
     "title": "Programa da Disciplina",
     "section": "Plano de Aula",
-    "text": "Plano de Aula\nTrata-se apenas de um planejamento e, como todo planejamento, pode ser alterado conforme o andamento da disciplina.\n\n\n\n\n\n\n\n\nAula\nData\nTópico\n\n\n\n\n1\n19/08/2025\nApresentação da disciplina. Ambiente computacional (R, Quarto, Git/GitHub)\n\n\n2\n26/08/2025\nFundamentos de probabilidade e inferência\n\n\n3\n02/09/2025\nModelo clássico de regressão linear: especificação, hipóteses e estimação\n\n\n4\n09/09/2025\nPropriedades dos estimadores e inferência estatística (testes e intervalos). Introdução ao CAPM\n\n\n5\n16/09/2025\nHipóteses, Diagnóstico e Soluções\n\n\n6\n23/09/2025\nHipóteses, Diagnóstico e Soluções (continuação)\n\n\n7\n30/09/2025\nAplicações empíricas: CAPM, Fama-French, Fama-MacBeth\n\n\n8\n07/10/2025\nModelos de Equações simultâneas\n\n\n9\n14/10/2025\nModelos de Equações simultâneas (continuação)\n\n\n10\n21/10/2025\nAvaliação 2 (intermediária)\n\n\n11\n28/10/2025\nModelos não lineares\n\n\n12\n04/11/2025\nModelos não lineares (continuação)\n\n\n13\n11/11/2025\nModelos não lineares (continuação)\n\n\n14\n18/11/2025\nTópicos Extras: Regressão robusta, Regressão quantílica, Regressão LASSO\n\n\n15\n25/11/2025\nAvaliação 3 (final) — Apresentações do projeto empírico",
+    "text": "Plano de Aula\nTrata-se apenas de um planejamento e, como todo planejamento, pode ser alterado conforme o andamento da disciplina.\n\n\n\n\n\n\n\n\nAula\nData\nTópico\n\n\n\n\n1\n19/08/2025\nApresentação da disciplina. Ambiente computacional (R, Quarto, Git/GitHub)\n\n\n2\n26/08/2025\nAmbiente computacional (R, Quarto, Git/GitHub)\n\n\n3\n02/09/2025\nModelo clássico de regressão linear: especificação, hipóteses e estimação\n\n\n4\n09/09/2025\nPropriedades dos estimadores e inferência estatística (testes e intervalos). Introdução ao CAPM\n\n\n5\n16/09/2025\nHipóteses, Diagnóstico e Soluções\n\n\n6\n23/09/2025\nHipóteses, Diagnóstico e Soluções (continuação)\n\n\n7\n30/09/2025\nAplicações empíricas: CAPM, Fama-French, Fama-MacBeth\n\n\n8\n07/10/2025\nModelos de Equações simultâneas\n\n\n9\n14/10/2025\nModelos de Equações simultâneas (continuação)\n\n\n10\n21/10/2025\nAvaliação 2 (intermediária)\n\n\n11\n28/10/2025\nModelos não lineares\n\n\n12\n04/11/2025\nModelos não lineares (continuação)\n\n\n13\n11/11/2025\nModelos não lineares (continuação)\n\n\n14\n18/11/2025\nTópicos Extras: Regressão robusta, Regressão quantílica, Regressão LASSO\n\n\n15\n25/11/2025\nAvaliação 3 (final) — Apresentações do projeto empírico",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -148,6 +148,17 @@
     "title": "Cronograma",
     "section": "Aula 1 (19/08/2025)",
     "text": "Aula 1 (19/08/2025)\n\nTópicos:\n\nApresentações\nApresentação da Disciplina\nAmbiente Computacional - instalação e Configuração\n\nSlides:\n\n\n\n\n\n\nPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.\n\n\n\n\nArquivo quarto\n\n01-relatorio (.zip)\n\nArquivo de dados\n\ndados (.zip)",
+    "crumbs": [
+      "Início",
+      "Cronograma"
+    ]
+  },
+  {
+    "objectID": "cronograma.html#aula-2-26082025",
+    "href": "cronograma.html#aula-2-26082025",
+    "title": "Cronograma",
+    "section": "Aula 2 (26/08/2025)",
+    "text": "Aula 2 (26/08/2025)\n\nTópicos:\n\nCurso Intensivo sobre as Ferramentas:\n\nGit e GitHub\nIntrodução ao Sistema\nLinguagem R\n\nSessão Prática\n\nSlides:\n\n\n\n\n\n\nPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.\n\n\n\n\nArquivo quarto: Relatório\n\n02-relatorio (.zip)\n\nArquivo quarto: Atividade 1\n\n01-atividade (.zip)",
     "crumbs": [
       "Início",
       "Cronograma"

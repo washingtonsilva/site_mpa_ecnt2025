@@ -224,7 +224,7 @@ Trata-se apenas de um planejamento e, como todo planejamento, pode ser alterado 
 | Aula | Data       | Tópico                                                                                              |
 |------|------------|-----------------------------------------------------------------------------------------------------|
 | 1    | 19/08/2025 | Apresentação da disciplina. Ambiente computacional (R, Quarto, Git/GitHub)                          |
-| 2    | 26/08/2025 | Fundamentos de probabilidade e inferência                                                           |
+| 2    | 26/08/2025 | Ambiente computacional (R, Quarto, Git/GitHub)                                                      |
 | 3    | 02/09/2025 | Modelo clássico de regressão linear: especificação, hipóteses e estimação                           |
 | 4    | 09/09/2025 | Propriedades dos estimadores e inferência estatística (testes e intervalos). Introdução ao CAPM     |
 | 5    | 16/09/2025 | Hipóteses, Diagnóstico e Soluções                                                                   |
