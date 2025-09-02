@@ -37,7 +37,7 @@
     "href": "programa.html#avaliação",
     "title": "Programa da Disciplina",
     "section": "Avaliação",
-    "text": "Avaliação\nTrata-se de um planejamento e pode ser alterado conforme o andamento da disciplina.\n\nAvaliação 1 (33 pontos) — exercícios semanais realizados em aula.\nAvaliação 2 (33 pontos) — teórico-prática\nAvaliação 3 (34 pontos) — projeto empírico reprodutível, individual ou em dupla/trio, desenvolvido ao longo do semestre.\n\nCritério de aprovação: nota média final igual ou superior a 60 pontos.\n\n\n\n\n\n\nDiretrizes para o Projeto Empírico (Avaliação 3)\n\n\n\nObjetivo:\nProduzir um estudo empírico de escopo limitado, com aplicação prática de pelo menos um modelo econométrico estudado na disciplina a um conjunto de dados reais da área de finanças.\nO trabalho deve demonstrar aplicação correta dos conceitos e da metodologia, interpretação dos resultados e seguir princípios de reprodutibilidade, sem a necessidade de atender ao formato ou à profundidade de um artigo científico completo.\nEntrega final:\n\nData: 25/11/2025 (Aula 15).\n\nFormato:\n\nRelatório produzido usando o sistema Quarto (PDF ou HTML) contendo:\n\nIntrodução (contexto e objetivo do estudo, de forma breve)\n\nBase de dados (fonte, período e descrição das variáveis)\n\nMetodologia (descrição objetiva dos modelos e procedimentos utilizados)\n\nResultados (tabelas e/ou gráficos devem ser gerados com código e conter breve interpretação)\n\nConclusões (resumo dos achados e possíveis limitações)\n\nReferências bibliográficas\n\n\nCódigo em R devidamente comentado, suficiente para reproduzir os resultados apresentados no relatório.\n\nPublicação em repositório GitHub\n\n\nApresentação oral:\n\nDuração de até 30 minutos, seguida de perguntas e discussão.\nSlides obrigatórios: devem ser produzidos com o sistema Quarto, utilizando um dos formatos:\n\nrevealjs (HTML interativo)\n\npdf/beamer (apresentação em PDF)\n\n\nCritérios de avaliação (34 pontos):\n\nCorreção técnica e reprodutibilidade — 24 pontos\n\nMetodologia correta e aplicação e interpretação adequada dos modelos.\n\nCódigo funcional e bem documentado.\n\nQualidade da comunicação — 10 pontos\n\nClareza e organização do relatório e da apresentação oral.\n\nQualidade visual e objetividade dos slides.\n\n\nSugestões de temas:\n\nComparação do desempenho do CAPM e do Fama-French na explicação dos retornos de ações.\n\nEstimação do risco sistemático e idiossincrático de ações.\n\nDeterminantes da política de dividendos.\n\nAnálise da probabilidade de default de empresas via logit/probit.\n\nPrecificação de ativos com modelos de fatores.\n\nFontes de dados recomendadas:\n\nYahoo Finance (tidyquant)\n\nRefinitv, Quandl, etc.\n\nOutras fontes abertas e devidamente citadas.",
+    "text": "Avaliação\nTrata-se de um planejamento e pode ser alterado conforme o andamento da disciplina.\n\nAvaliação 1 (33 pontos) — exercícios semanais realizados em aula.\nAvaliação 2 (33 pontos) — teórico-prática\nAvaliação 3 (34 pontos) — projeto empírico reprodutível, individual ou em dupla/trio, desenvolvido ao longo do semestre.\n\nCritério de aprovação: nota média final igual ou superior a 60 pontos.\n\n\n\n\n\n\nNotaDiretrizes para o Projeto Empírico (Avaliação 3)\n\n\n\nObjetivo:\nProduzir um estudo empírico de escopo limitado, com aplicação prática de pelo menos um modelo econométrico estudado na disciplina a um conjunto de dados reais da área de finanças.\nO trabalho deve demonstrar aplicação correta dos conceitos e da metodologia, interpretação dos resultados e seguir princípios de reprodutibilidade, sem a necessidade de atender ao formato ou à profundidade de um artigo científico completo.\nEntrega final:\n\nData: 25/11/2025 (Aula 15).\n\nFormato:\n\nRelatório produzido usando o sistema Quarto (PDF ou HTML) contendo:\n\nIntrodução (contexto e objetivo do estudo, de forma breve)\n\nBase de dados (fonte, período e descrição das variáveis)\n\nMetodologia (descrição objetiva dos modelos e procedimentos utilizados)\n\nResultados (tabelas e/ou gráficos devem ser gerados com código e conter breve interpretação)\n\nConclusões (resumo dos achados e possíveis limitações)\n\nReferências bibliográficas\n\n\nCódigo em R devidamente comentado, suficiente para reproduzir os resultados apresentados no relatório.\n\nPublicação em repositório GitHub\n\n\nApresentação oral:\n\nDuração de até 30 minutos, seguida de perguntas e discussão.\nSlides obrigatórios: devem ser produzidos com o sistema Quarto, utilizando um dos formatos:\n\nrevealjs (HTML interativo)\n\npdf/beamer (apresentação em PDF)\n\n\nCritérios de avaliação (34 pontos):\n\nCorreção técnica e reprodutibilidade — 24 pontos\n\nMetodologia correta e aplicação e interpretação adequada dos modelos.\n\nCódigo funcional e bem documentado.\n\nQualidade da comunicação — 10 pontos\n\nClareza e organização do relatório e da apresentação oral.\n\nQualidade visual e objetividade dos slides.\n\n\nSugestões de temas:\n\nComparação do desempenho do CAPM e do Fama-French na explicação dos retornos de ações.\n\nEstimação do risco sistemático e idiossincrático de ações.\n\nDeterminantes da política de dividendos.\n\nAnálise da probabilidade de default de empresas via logit/probit.\n\nPrecificação de ativos com modelos de fatores.\n\nFontes de dados recomendadas:\n\nYahoo Finance (tidyquant)\n\nRefinitv, Quandl, etc.\n\nOutras fontes abertas e devidamente citadas.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -147,7 +147,7 @@
     "href": "cronograma.html#aula-1-19082025",
     "title": "Cronograma",
     "section": "Aula 1 (19/08/2025)",
-    "text": "Aula 1 (19/08/2025)\n\nTópicos:\n\nApresentações\nApresentação da Disciplina\nAmbiente Computacional - instalação e Configuração\n\nSlides:\n\n\n\n\n\n\nPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.\n\n\n\n\nArquivo quarto\n\n01-relatorio (.zip)\n\nArquivo de dados\n\ndados (.zip)",
+    "text": "Aula 1 (19/08/2025)\n\nTópicos:\n\nApresentações\nApresentação da Disciplina\nAmbiente Computacional - instalação e Configuração\n\nSlides:\n\n\n\n\n\n\nDicaPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.\n\n\n\n\nArquivo quarto\n\n01-relatorio (.zip)\n\nArquivo de dados\n\ndados (.zip)",
     "crumbs": [
       "Início",
       "Cronograma"
@@ -158,7 +158,18 @@
     "href": "cronograma.html#aula-2-26082025",
     "title": "Cronograma",
     "section": "Aula 2 (26/08/2025)",
-    "text": "Aula 2 (26/08/2025)\n\nTópicos:\n\nCurso Intensivo sobre as Ferramentas:\n\nGit e GitHub\nIntrodução ao Sistema\nLinguagem R\n\nSessão Prática\n\nSlides:\n\n\n\n\n\n\nPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.\n\n\n\n\nArquivo quarto: Relatório\n\n02-relatorio (.zip)\n\nArquivo quarto: Atividade 1\n\n01-atividade (.zip)",
+    "text": "Aula 2 (26/08/2025)\n\nTópicos:\n\nCurso Intensivo sobre as Ferramentas:\n\nGit e GitHub\nIntrodução ao Sistema\nLinguagem R\n\nSessão Prática\n\nSlides:\n\n\n\n\n\n\nDicaPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.\n\n\n\n\nArquivo quarto: Relatório\n\n02-relatorio (.zip)\n\nArquivo quarto: Atividade 1\n\n01-atividade (.zip)",
+    "crumbs": [
+      "Início",
+      "Cronograma"
+    ]
+  },
+  {
+    "objectID": "cronograma.html#aula-3-02092025",
+    "href": "cronograma.html#aula-3-02092025",
+    "title": "Cronograma",
+    "section": "Aula 3 (02/09/2025)",
+    "text": "Aula 3 (02/09/2025)\n\nTópicos:\n\nMinicurso Intensivo: Teoria da Probabilidade - Parte 1\n\nSlides:\n\n\n\n\n\n\nDicaPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.",
     "crumbs": [
       "Início",
       "Cronograma"
@@ -169,7 +180,7 @@
     "href": "ambiente.html",
     "title": "Ambiente Computacional",
     "section": "",
-    "text": "Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.\n\n\n\n\n\n\nImportante\n\n\n\n\nTente instalar e configurar todos os softwares antes da primeira aula para aproveitar melhor o tempo em sala.\nUtilizaremos o RStudio como IDE para a linguagem R e o sistema Quarto devido à sua simplicidade, mas é possível utilizar outros IDEs como Visual Studio Code, Positron, entre outros, caso prefira.",
+    "text": "Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.\n\n\n\n\n\n\nDicaImportante\n\n\n\n\nTente instalar e configurar todos os softwares antes da primeira aula para aproveitar melhor o tempo em sala.\nUtilizaremos o RStudio como IDE para a linguagem R e o sistema Quarto devido à sua simplicidade, mas é possível utilizar outros IDEs como Visual Studio Code, Positron, entre outros, caso prefira.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
@@ -180,7 +191,7 @@
     "href": "ambiente.html#visão-geral",
     "title": "Ambiente Computacional",
     "section": "",
-    "text": "Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.\n\n\n\n\n\n\nImportante\n\n\n\n\nTente instalar e configurar todos os softwares antes da primeira aula para aproveitar melhor o tempo em sala.\nUtilizaremos o RStudio como IDE para a linguagem R e o sistema Quarto devido à sua simplicidade, mas é possível utilizar outros IDEs como Visual Studio Code, Positron, entre outros, caso prefira.",
+    "text": "Esta página contém instruções para instalação e configuração dos softwares necessários para acompanhar a disciplina Econometria Aplicada à Finanças.\n\n\n\n\n\n\nDicaImportante\n\n\n\n\nTente instalar e configurar todos os softwares antes da primeira aula para aproveitar melhor o tempo em sala.\nUtilizaremos o RStudio como IDE para a linguagem R e o sistema Quarto devido à sua simplicidade, mas é possível utilizar outros IDEs como Visual Studio Code, Positron, entre outros, caso prefira.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
@@ -202,7 +213,7 @@
     "href": "ambiente.html#sec-r",
     "title": "Ambiente Computacional",
     "section": "Linguagem R",
-    "text": "Linguagem R\n\n\n\n\n\n\nInstalando a Linguagem R 4.5.1\n\n\n\n\nAcesse https://cloud.r-project.org/\nSelecione o sistema operacional ou, se usar Ms Windows, clique em Download R for Windows por exemplo.\nNa página seguinte clique em base\nClique em Download R-4.5.1 for Windows\nFeito o download basta ir clicando em próximo/next até a instalação ser concluída.",
+    "text": "Linguagem R\n\n\n\n\n\n\nDicaInstalando a Linguagem R 4.5.1\n\n\n\n\nAcesse https://cloud.r-project.org/\nSelecione o sistema operacional ou, se usar Ms Windows, clique em Download R for Windows por exemplo.\nNa página seguinte clique em base\nClique em Download R-4.5.1 for Windows\nFeito o download basta ir clicando em próximo/next até a instalação ser concluída.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
@@ -213,7 +224,7 @@
     "href": "ambiente.html#sec-rstudio",
     "title": "Ambiente Computacional",
     "section": "RStudio",
-    "text": "RStudio\n\n\n\n\n\n\nInstalando o IDE RStudio\n\n\n\n\nAcesse https://posit.co/download/rstudio-desktop/\nEm geral, o site detecta seu sistema operacional e disponibiliza o instalador adequado logo abaixo de 2: Install RStudio.\nClique em Download RStudio Desktop for Windows caso seu sistema operacional seja Windows.\nFinalizado o download, basta clicar no arquivo e, em seguida, clicar em em continuar/avançar/next até o início da instalação.",
+    "text": "RStudio\n\n\n\n\n\n\nDicaInstalando o IDE RStudio\n\n\n\n\nAcesse https://posit.co/download/rstudio-desktop/\nEm geral, o site detecta seu sistema operacional e disponibiliza o instalador adequado logo abaixo de 2: Install RStudio.\nClique em Download RStudio Desktop for Windows caso seu sistema operacional seja Windows.\nFinalizado o download, basta clicar no arquivo e, em seguida, clicar em em continuar/avançar/next até o início da instalação.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
@@ -224,7 +235,7 @@
     "href": "ambiente.html#sec-quarto",
     "title": "Ambiente Computacional",
     "section": "Sistema Quarto",
-    "text": "Sistema Quarto\n\n\n\n\n\n\nInstalando o Sistema de Publicação Quarto\n\n\n\n\nAcesse https://quarto.org/docs/download/\nClique em Download Quarto CLI e, finalizado o download, instale clicando no arquivo.\nFinalizado o download, basta clicar no arquivo e, em seguida, clicar em em continuar/avançar/next até o início da instalação.",
+    "text": "Sistema Quarto\n\n\n\n\n\n\nDicaInstalando o Sistema de Publicação Quarto\n\n\n\n\nAcesse https://quarto.org/docs/download/\nClique em Download Quarto CLI e, finalizado o download, instale clicando no arquivo.\nFinalizado o download, basta clicar no arquivo e, em seguida, clicar em em continuar/avançar/next até o início da instalação.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
@@ -235,7 +246,7 @@
     "href": "ambiente.html#tinytex",
     "title": "Ambiente Computacional",
     "section": "TinyTeX",
-    "text": "TinyTeX\n\n\n\n\n\n\nTinyTeX (necessária para gerar arquivos PDF)\n\n\n\nPara renderizar arquivos PDF com Quarto/R é necessário instalar a distribuição TinyTeX (distribuição LaTeX mínima).\nApós ter instalado a linguagem R e o RStudi, no Console R do RStudio, execute:\n\n# instala o pacote tinytex pelo console do RStudio\n# ou utilize o menu Packages → Install Packages\ninstall.packages(\"tinytex\")\n\n# instala a distribuição LaTeX mínima\ntinytex::install_tinytex()   \n\n # verifica se está instalado corretamente\ntinytex::is_tinytex()       \n\n\nManutenção/atualização\ntinytex::tlmgr_update()      # atualiza pacotes LaTeX do TinyTeX\n\n\nTeste rápido\nCrie um arquivo hello.qmd e renderize em PDF:\n---\ntitle: \"Teste de Renderização PDF\"\nformat: pdf\n---\nRenderize o arquivo clicando no botão Render do RStudio ou utilize o terminal Git Bash (é necesário estar no diretório do arquivo):\nquarto render hello.qmd",
+    "text": "TinyTeX\n\n\n\n\n\n\nDicaTinyTeX (necessária para gerar arquivos PDF)\n\n\n\nPara renderizar arquivos PDF com Quarto/R é necessário instalar a distribuição TinyTeX (distribuição LaTeX mínima).\nApós ter instalado a linguagem R e o RStudi, no Console R do RStudio, execute:\n\n# instala o pacote tinytex pelo console do RStudio\n# ou utilize o menu Packages → Install Packages\ninstall.packages(\"tinytex\")\n\n# instala a distribuição LaTeX mínima\ntinytex::install_tinytex()   \n\n # verifica se está instalado corretamente\ntinytex::is_tinytex()       \n\n\nManutenção/atualização\ntinytex::tlmgr_update()      # atualiza pacotes LaTeX do TinyTeX\n\n\nTeste rápido\nCrie um arquivo hello.qmd e renderize em PDF:\n---\ntitle: \"Teste de Renderização PDF\"\nformat: pdf\n---\nRenderize o arquivo clicando no botão Render do RStudio ou utilize o terminal Git Bash (é necesário estar no diretório do arquivo):\nquarto render hello.qmd",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
@@ -246,7 +257,7 @@
     "href": "ambiente.html#sec-git",
     "title": "Ambiente Computacional",
     "section": "Git",
-    "text": "Git\n\n\n\n\n\n\nInstalando o Git no Windows\n\n\n\n\nAcesse o site oficial do Git: git-scm.com\nClique em Download for Windows, exibido em um terminal.\nApós o download, execute o instalador.\nSiga os passos do instalador, mantenha as configurações padrão sugeridas até o item 5.\nHá uma excecão, quando chegar na janela de título Adjusting the name of the initial branch, marque a opção Override the defaul e escreva main no campo apropriado.\nClique em Next nas próximas janelas e finalize a instalação.",
+    "text": "Git\n\n\n\n\n\n\nDicaInstalando o Git no Windows\n\n\n\n\nAcesse o site oficial do Git: git-scm.com\nClique em Download for Windows, exibido em um terminal.\nApós o download, execute o instalador.\nSiga os passos do instalador, mantenha as configurações padrão sugeridas até o item 5.\nHá uma excecão, quando chegar na janela de título Adjusting the name of the initial branch, marque a opção Override the defaul e escreva main no campo apropriado.\nClique em Next nas próximas janelas e finalize a instalação.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
@@ -257,7 +268,7 @@
     "href": "ambiente.html#configurando-o-git",
     "title": "Ambiente Computacional",
     "section": "Configurando o Git",
-    "text": "Configurando o Git\n\n\n\n\n\n\nConfigurar o Usuário\n\n\n\n\nAbra o Git Bash (encontrado no menu Iniciar após a instalação).\nConfigure seu nome de usuário:\n\ngit config --global user.name \"SeuNome\"\n\n\n\n\n\n\n\n\nConfigurar o email\n\n\n\n\nConfigure seu e-mail:\n\ngit config --global user.email \"seuemail@exemplo.com\"\n\n\n\n\n\n\n\n\nVerificando as Configurações\n\n\n\n\nPara verificar suas configurações, use:\n\ngit config --list",
+    "text": "Configurando o Git\n\n\n\n\n\n\nDicaConfigurar o Usuário\n\n\n\n\nAbra o Git Bash (encontrado no menu Iniciar após a instalação).\nConfigure seu nome de usuário:\n\ngit config --global user.name \"SeuNome\"\n\n\n\n\n\n\n\n\nDicaConfigurar o email\n\n\n\n\nConfigure seu e-mail:\n\ngit config --global user.email \"seuemail@exemplo.com\"\n\n\n\n\n\n\n\n\nDicaVerificando as Configurações\n\n\n\n\nPara verificar suas configurações, use:\n\ngit config --list",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
@@ -268,7 +279,7 @@
     "href": "ambiente.html#git-bash-como-terminal-no-rstudio",
     "title": "Ambiente Computacional",
     "section": "Git Bash como terminal no RStudio",
-    "text": "Git Bash como terminal no RStudio\n\n\n\n\n\n\nRStudio: usando o Git Bash como terminal (Windows)\n\n\n\n\n\nO Git Bash é instalado junto com o Git for Windows. Se não aparecer na lista, reinstale o Git mantendo a opção Git Bash.\n\n\n\nAbra RStudio → Tools → Global Options → Terminal.\n\nEm New terminals open with, selecione Git Bash.\n\nConfirme e reinicie o RStudio.",
+    "text": "Git Bash como terminal no RStudio\n\n\n\n\n\n\nDicaRStudio: usando o Git Bash como terminal (Windows)\n\n\n\n\n\nO Git Bash é instalado junto com o Git for Windows. Se não aparecer na lista, reinstale o Git mantendo a opção Git Bash.\n\n\n\nAbra RStudio → Tools → Global Options → Terminal.\n\nEm New terminals open with, selecione Git Bash.\n\nConfirme e reinicie o RStudio.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
@@ -279,7 +290,7 @@
     "href": "ambiente.html#sec-github",
     "title": "Ambiente Computacional",
     "section": "GitHub",
-    "text": "GitHub\n\n\n\n\n\n\nCriando uma Conta no GitHub\n\n\n\n\nAcesse github.com\nClique em Sign up para criar uma nova conta.\nPreencha os campos solicitados:\n\nUsername: Escolha um nome de usuário.\nEmail: Insira seu endereço de e-mail.\nPassword: Crie uma senha segura.\n\nVerifique seu e-mail e siga as instruções para confirmar sua conta.",
+    "text": "GitHub\n\n\n\n\n\n\nDicaCriando uma Conta no GitHub\n\n\n\n\nAcesse github.com\nClique em Sign up para criar uma nova conta.\nPreencha os campos solicitados:\n\nUsername: Escolha um nome de usuário.\nEmail: Insira seu endereço de e-mail.\nPassword: Crie uma senha segura.\n\nVerifique seu e-mail e siga as instruções para confirmar sua conta.",
     "crumbs": [
       "Início",
       "Ambiente Computacional"
