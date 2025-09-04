@@ -106,7 +106,144 @@ artigos, e outros recursos que poderão ser disponibilizados.
   <iframe src="/slides/slides-aula03.html" width="100%" height="450px"></iframe>
   
 
+- **Atividade 2**
 
+  - [02-atividade.pdf](arquivos/02-atividade.pdf)
+  - **Data Limite** para envio pelo Google Sala de Aula: 12/09/2025
+
+
+- **Template de arquivo quarto (.qmd) para a Atividade 2**
+
+  - [02-atividade-template.zip](arquivos/02-atividade-template.zip)
+
+::: {.callout-tip}
+## Atividade 2: Instruções para Resolução e Envio
+
+Vocês tem duas opções para enviar a resolução Atividade 2:
+
+1. Fazer em papel, fotografar, digitalizar e enviar um único arquivo 
+pdf contendo a resolução dos exercícios. Nesse caso, é importante 
+que os exercícios e sua resolução estejam organizados e legíveis. 
+
+2. Utilizar o template de arquivo quarto (que produz um arquivo html após ser 
+renderizado) que preparei para os que desejarem fazer a atividade usando 
+o sistema quarto. Entretanto, para utilizar o template, será necessário 
+escrever as fórmulas usadas no cálculo das probabilides usando LaTeX. 
+Assim, para ajudar os que desejarem usar esta estratégia, elaborei as 
+dicas exibidas no quadro abaix. Caso opte por usar o template, lembre-se de 
+abrir seu projeto RStudio da disciplina, criar a subpasta **02-atividade** 
+dentro da pasta **atividades**, baixar, descompactar e mover o arquivo 
+`02-atividade-template.qmd` dentro da subpasta 02-atividade, 
+preferencialmente usando o terminal Git Bash do RStudio e a 
+cadeia de comandos: 
+
+
+#### Dicas para escrever equações com Latex nos sistema Quarto
+
+Ao responder as questões, será necessário escrever **fórmulas matemáticas** 
+para o cálculo das probabilides. E, como sabemos, é possível escrever 
+matemática em arquivos quarto usando LaTeX.
+
+Existem duas formas principais de escrever equações:
+
+#### Equações em linha
+
+Use **um `$` no início e um `$` no fim** da equação.  
+
+Exemplo:
+
+``` markdown
+A probabilidade condicional é dada por $P(A|B) = \frac{P(A \cap B)}{P(B)}$.
+```
+
+Após renderizar o arquivo você terá: 
+
+A probabilidade condicional é dada por $P(A|B) = \frac{P(A \cap B)}{P(B)}$.
+
+
+#### Equações destacadas (em bloco)
+
+Use **`$$` antes e depois** do bloco de fórmulas
+
+Exemplo:
+
+``` markdown
+$$
+P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0.4 + 0.3 - 0.2 = 0.5
+$$
+```
+
+E, após renderizar o arquivo, você terá: 
+
+$$
+P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0.4 + 0.3 - 0.2 = 0.5
+$$
+
+
+#### Várias linhas de cálculo
+
+Dentro de um mesmo bloco  use `$$...$$` e `\begin{aling*}` e `\begin{aling*}`, 
+e use `\\` para quebrar linhas.
+
+Exemplo:
+
+```markdown
+$$
+\begin{align*}
+P(A|B) = \frac{P(A \cap B)}{P(B)} \\
+= \frac{0.12}{0.30} \\
+= 0.40
+\begin{align*}
+$$
+```
+
+E, após renderizar o arquivo, você terá: 
+
+$$
+\begin{align*}
+P(A|B) &= \frac{P(A \cap B)}{P(B)} \\
+       &= \frac{0.12}{0.30} \\
+       &= 0.40
+\end{align*}
+$$
+
+
+
+#### Funções LaTeX úteis para probabilidade básica
+
+- `\cup` → produz $\cup$ = união  
+
+- `\cap` → produz $\cap$  = interseção  
+
+- `\bar{A}` → produz $\bar{A}$ = complemento de $A$ (Obs: para obter o complemento de 
+uma operação envolvendo mais de um evento, é preferível usar a função `\overline{}`),
+por exemplo `P(\overline{A \cap B})` produz $P(\overline{A \cap B}))$  
+
+- `\frac{a}{b}` → produz $\frac{a}{b}$ = fração  
+
+- `$x^2$` → produz $x^2$ = expoente 
+
+- `X_1` → produz $X_1$ = variável com subscrito  
+
+- `f_{X_1}(x_1)` → produz $f_{X_1}(x_1)$ = densidade da distribuicão marginal de $X_1$  
+
+- `f_{X_1,X_2}(x_1,x_2)` → produz $f_{X_1,X_2}(x_1,x_2)$ = densidade da distribuição conjunta de $X_1$ e $X_2$  
+
+- `f_{X_1|X_2}(X_1|X_2 = x_2)` → produz $f_{X_1|X_2}(X_1|X_2 = x_2)$ = densidade da distribuição condicional de $X_1$ dado $X_2 = x_2$  
+
+
+
+  
+
+
+**Sugestão:**  
+
+Use **equações em linha** (`$...$`) para respostas curtas e simples, e a 
+a maioria dos exercícios envolve cálculos simples.
+
+e **blocos de equação** (`$$...$$`) quando precisar mostrar cálculos 
+mais longos.
+:::
 
 
   
