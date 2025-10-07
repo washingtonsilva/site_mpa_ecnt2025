@@ -220,6 +220,17 @@
     ]
   },
   {
+    "objectID": "cronograma.html#aula-8-07102025",
+    "href": "cronograma.html#aula-8-07102025",
+    "title": "Cronograma",
+    "section": "Aula 8 (07/10/2025)",
+    "text": "Aula 8 (07/10/2025)\n\nTópicos:\n\nModelo de Regressão Linear Simples\nAvaliação 1\n\nSlides:\n\n\n\n\n\n\nDicaPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.\n\n\n\n\nArquivo quarto para a aula\n\n04-relatorio.zip\nBaixe o arquivo, descompacte e coloque todos os arquivos dentro da subpasta 04-relatorio\n\nArquivo de dados (.rda)\n\ndados-hedge-clean.zip\ndados-capm-clean.zip\nBaixe os dois arquivos, descompacte e coloque ambos na pasta dados/processados do seu projeto\n\nAvaliação 1\n\n\n\n\n\n\nDicaAvaliação 1\n\n\n\nClique aqui para acessar a Avaliação 1\nO1-avaliacao-template.zip\n\n\n\n\n\n\n\n\nDicaEstruturando seu Projeto RStudio para a Avaliação 1\n\n\n\n\nAbra o RStudio e o seu Projeto RStudio da disciplina.\nCrie uma pasta chamada avaliacoes na raiz do seu Projeto RStudio\nDentro da pasta avaliacoes , crie uma subpasta chamada 01-avaliacao\nBaixe o arquivo 01-avaliacao-template.zip, descompacte esse arquivo, copie/recorte o arquivo 01-avaliacao-template.qmd e salve-o na subpasta 01-avaliacao que você acabou de criar\nRenomeie o arquivo 01-avaliacao-template.qmd para 01-avaliacao-seunome.qmd\nEscreva seu nome na chave author: \"SEU NOME AQUI\" do cabeçalho yaml e resolva as questões.",
+    "crumbs": [
+      "Início",
+      "Cronograma"
+    ]
+  },
+  {
     "objectID": "ambiente.html",
     "href": "ambiente.html",
     "title": "Ambiente Computacional",
