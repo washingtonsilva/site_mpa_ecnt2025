@@ -275,6 +275,17 @@
     ]
   },
   {
+    "objectID": "cronograma.html#aula-13-11112025",
+    "href": "cronograma.html#aula-13-11112025",
+    "title": "Cronograma",
+    "section": "Aula 13 (11/11/2025)",
+    "text": "Aula 13 (11/11/2025)\n\nTópicos:\n\nExogeneidade: Revisão\nConsistência de Estimadores\nViés de Variável Omitida\nErro de Mensuração\nCausalidade\nRegressão com Variáveis Instrumentais\n\nSlides:\n\n\n\n\n\n\nDicaPara navegar e visualizar\n\n\n\nClique no símbolo &gt; à direita ou use as teclas: seta para direita →, espaço, ou letra “n” para avançar. Pressione “F” para modo de tela cheia e “Esc” para sair.\n\n\n\n\nArquivo quarto para a aula\n\n09-relatorio.zip\nBaixe o arquivo, descompacte e coloque o arquivo .qmd dentro da subpasta relatorios/09-relatorio/",
+    "crumbs": [
+      "Início",
+      "Cronograma"
+    ]
+  },
+  {
     "objectID": "ambiente.html",
     "href": "ambiente.html",
     "title": "Ambiente Computacional",
