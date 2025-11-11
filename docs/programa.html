@@ -232,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Compreender os fundamentos teóricos dos modelos de regressão linear, não linear e de equações simultâneas aplicados a dados em seção cruzada.</p></li>
 <li><p>Estimar e interpretar adequadamente modelos de regressão linear, não linear e de equações simultâneas em aplicações de finanças.</p></li>
 <li><p>Diagnosticar e tratar violações das hipóteses do modelo clássico, incluindo heterocedasticidade, multicolinearidade e especificação incorreta, entre outras questões.</p></li>
-<li><p>Implementar aplicações empíricas relevantes em finanças, como os modelos CAPM, Fama-French e Fama-MacBeth, entre outras.</p></li>
+<li><p>Implementar aplicações empíricas relevantes em finanças.</p></li>
 <li><p>Elaborar e documentar projetos empíricos reprodutíveis, seguindo as boas práticas recomendadas na literatura.</p></li>
 </ol>
 </section>
@@ -242,95 +242,9 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p><strong>Avaliação 1 (33 pontos)</strong> — exercícios semanais realizados em aula.</p></li>
 <li><p><strong>Avaliação 2 (33 pontos)</strong> — teórico-prática</p></li>
-<li><p><strong>Avaliação 3 (34 pontos)</strong> — <strong>projeto empírico reprodutível</strong>, individual ou em dupla/trio, desenvolvido ao longo do semestre.</p></li>
+<li><p><strong>Avaliação 3 (34 pontos)</strong> - teórico-prática</p></li>
 </ol>
 <p><strong>Critério de aprovação:</strong> nota média final igual ou superior a 60 pontos.</p>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Diretrizes para o Projeto Empírico (Avaliação 3)
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Objetivo:</strong></p>
-<p>Produzir um estudo empírico de escopo limitado, com aplicação prática de pelo menos um modelo econométrico estudado na disciplina a um conjunto de dados reais da área de finanças.</p>
-<p>O trabalho deve demonstrar aplicação correta dos conceitos e da metodologia, interpretação dos resultados e seguir princípios de reprodutibilidade, sem a necessidade de atender ao formato ou à profundidade de um artigo científico completo.</p>
-<p><strong>Entrega final:</strong></p>
-<ul>
-<li>Data: <strong>25/11/2025</strong> (Aula 15).<br>
-</li>
-<li>Formato:
-<ul>
-<li>Relatório produzido usando o sistema Quarto (PDF ou HTML) contendo:
-<ol type="1">
-<li>Introdução (contexto e objetivo do estudo, de forma breve)<br>
-</li>
-<li>Base de dados (fonte, período e descrição das variáveis)<br>
-</li>
-<li>Metodologia (descrição objetiva dos modelos e procedimentos utilizados)<br>
-</li>
-<li>Resultados (tabelas e/ou gráficos devem ser gerados com código e conter breve interpretação)<br>
-</li>
-<li>Conclusões (resumo dos achados e possíveis limitações)<br>
-</li>
-<li>Referências bibliográficas<br>
-</li>
-</ol></li>
-<li>Código em <strong>R</strong> devidamente comentado, suficiente para reproduzir os resultados apresentados no relatório.<br>
-</li>
-<li>Publicação em repositório <strong>GitHub</strong></li>
-</ul></li>
-</ul>
-<p><strong>Apresentação oral:</strong></p>
-<ul>
-<li><p>Duração de até <strong>30 minutos</strong>, seguida de perguntas e discussão.</p></li>
-<li><p><strong>Slides obrigatórios</strong>: devem ser produzidos com o sistema <strong>Quarto</strong>, utilizando um dos formatos:</p>
-<ul>
-<li><strong>revealjs</strong> (HTML interativo)<br>
-</li>
-<li><strong>pdf/beamer</strong> (apresentação em PDF)</li>
-</ul></li>
-</ul>
-<p><strong>Critérios de avaliação (34 pontos):</strong></p>
-<ul>
-<li><strong>Correção técnica e reprodutibilidade</strong> — <strong>24 pontos</strong>
-<ul>
-<li>Metodologia correta e aplicação e interpretação adequada dos modelos.<br>
-</li>
-<li>Código funcional e bem documentado.</li>
-</ul></li>
-<li><strong>Qualidade da comunicação</strong> — <strong>10 pontos</strong>
-<ul>
-<li>Clareza e organização do relatório e da apresentação oral.<br>
-</li>
-<li>Qualidade visual e objetividade dos slides.</li>
-</ul></li>
-</ul>
-<p><strong>Sugestões de temas:</strong></p>
-<ul>
-<li>Comparação do desempenho do CAPM e do Fama-French na explicação dos retornos de ações.<br>
-</li>
-<li>Estimação do risco sistemático e idiossincrático de ações.<br>
-</li>
-<li>Determinantes da política de dividendos.<br>
-</li>
-<li>Análise da probabilidade de default de empresas via logit/probit.<br>
-</li>
-<li>Precificação de ativos com modelos de fatores.</li>
-</ul>
-<p><strong>Fontes de dados recomendadas:</strong></p>
-<ul>
-<li>Yahoo Finance (<code>tidyquant</code>)<br>
-</li>
-<li>Refinitv, Quandl, etc.<br>
-</li>
-<li>Outras fontes abertas e devidamente citadas.</li>
-</ul>
-</div>
-</div>
 </section>
 <section id="bibliografia-básica" class="level2">
 <h2 class="anchored" data-anchor-id="bibliografia-básica">Bibliografia Básica</h2>
@@ -351,7 +265,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="ementa" class="level2">
 <h2 class="anchored" data-anchor-id="ementa">Ementa</h2>
-<p>Computação científica reprodutível com R, Git/GitHub e Quarto. Fundamentos de probabilidade e inferência estatística aplicados à regressão. Modelo clássico de regressão linear: estimação, inferência e diagnóstico. Correção de violações das hipóteses clássicas. Aplicações empíricas em finanças: CAPM, Fama-French e Fama-MacBeth. Modelos de equações simultâneas e variáveis instrumentais. Modelos não lineares: logit e probit. Desenvolvimento de projeto empírico reprodutível.</p>
+<p>Computação científica reprodutível com R, Git/GitHub e Quarto. Fundamentos de probabilidade e inferência estatística aplicados à regressão. Modelo clássico de regressão linear: estimação, inferência e diagnóstico. Correção de violações das hipóteses clássicas. Regressão Robusta. Modelos para variáveis dependentes limitadas. Variáveis Instrumentais. Aplicações empíricas em finanças.</p>
 </section>
 <section id="conteúdo-programático" class="level2">
 <h2 class="anchored" data-anchor-id="conteúdo-programático">Conteúdo Programático</h2>
@@ -365,7 +279,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Fundamentos de Probabilidade e Inferência</strong></p>
 <ul>
 <li>Conceitos essenciais de probabilidade aplicados à regressão.</li>
-<li>Noções de inferência estatística: estimadores, testes e intervalos.</li>
+<li>Noções de inferência estatística: estimadores, testes de hipóteses e intervalos de confiança.</li>
 </ul></li>
 <li><p><strong>Modelo Clássico de Regressão Linear</strong></p>
 <ul>
@@ -374,29 +288,14 @@ ul.task-list li input[type="checkbox"] {
 <li>Diagnóstico e tratamento de violações.</li>
 <li>Questões de especificação e estabilidade de parâmetros.</li>
 </ul></li>
-<li><p><strong>Aplicações em Finanças</strong></p>
-<ul>
-<li>Modelos CAPM, Fama-French e Fama-MacBeth.</li>
-</ul></li>
-<li><p><strong>Modelos de Equações Simultâneas</strong></p>
-<ul>
-<li>Conceitos, estimação e aplicações em finanças.</li>
-</ul></li>
+<li><p><strong>Modelos de Regressão Robusta</strong></p></li>
 <li><p><strong>Modelos Não Lineares</strong></p>
 <ul>
 <li>Modelos Logit e Probit: fundamentos, estimação, interpretação e aplicações.</li>
+<li>Modelos multinomiais</li>
 </ul></li>
-<li><p><strong>Projeto Empírico Reprodutível</strong></p>
-<ul>
-<li>Planejamento, execução e documentação.</li>
-<li>Integração dos métodos estudados em relatório e apresentação.</li>
-</ul></li>
-<li><p><strong>Tópicos Extras</strong> (Se houver tempo)</p>
-<ul>
-<li>Regressão Robusta.</li>
-<li>Regressão Quantílica.</li>
-<li>Regressão LASSO.</li>
-</ul></li>
+<li><p><strong>Variáveis Instrumentais</strong></p></li>
+<li><p>???</p></li>
 </ol>
 </section>
 <section id="recursos-didáticos-e-materiais-de-estudo" class="level2">
@@ -453,67 +352,67 @@ O uso de dados reais, simulados e estudos de caso em finanças permitirá integr
 <tr class="odd">
 <td>3</td>
 <td>02/09/2025</td>
-<td>Modelo clássico de regressão linear: especificação, hipóteses e estimação</td>
+<td>Fundamentos de Probabilidade e Inferência</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>09/09/2025</td>
-<td>Propriedades dos estimadores e inferência estatística (testes e intervalos). Introdução ao CAPM</td>
+<td>Fundamentos de Probabilidade e Inferência</td>
 </tr>
 <tr class="odd">
 <td>5</td>
 <td>16/09/2025</td>
-<td>Hipóteses, Diagnóstico e Soluções</td>
+<td>Fundamentos de Probabilidade e Inferência</td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>23/09/2025</td>
-<td>Hipóteses, Diagnóstico e Soluções (continuação)</td>
+<td>Fundamentos de Probabilidade e Inferência</td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>30/09/2025</td>
-<td>Aplicações empíricas: CAPM, Fama-French, Fama-MacBeth</td>
+<td>Fundamentos de Probabilidade e Inferência</td>
 </tr>
 <tr class="even">
 <td>8</td>
 <td>07/10/2025</td>
-<td>Modelos de Equações simultâneas</td>
+<td>Modelo de Regressão Linear - Avaliação 2</td>
 </tr>
 <tr class="odd">
 <td>9</td>
 <td>14/10/2025</td>
-<td>Modelos de Equações simultâneas (continuação)</td>
+<td>Modelo de Regressão Linear</td>
 </tr>
 <tr class="even">
 <td>10</td>
 <td>21/10/2025</td>
-<td><strong>Avaliação 2 (intermediária)</strong></td>
+<td>Modelo de Regressão Linear</td>
 </tr>
 <tr class="odd">
 <td>11</td>
 <td>28/10/2025</td>
-<td>Modelos não lineares</td>
+<td>Estabilidade de Parâmetros, Diagnóstico de Normalidade, Regressão Robusta</td>
 </tr>
 <tr class="even">
 <td>12</td>
 <td>04/11/2025</td>
-<td>Modelos não lineares (continuação)</td>
+<td>Modelos para Variáveis Dependentes Limitadas</td>
 </tr>
 <tr class="odd">
 <td>13</td>
 <td>11/11/2025</td>
-<td>Modelos não lineares (continuação)</td>
+<td>Variáveis Instrumentais</td>
 </tr>
 <tr class="even">
 <td>14</td>
 <td>18/11/2025</td>
-<td><strong>Tópicos Extras:</strong> Regressão robusta, Regressão quantílica, Regressão LASSO</td>
+<td><strong>???</strong></td>
 </tr>
 <tr class="odd">
 <td>15</td>
 <td>25/11/2025</td>
-<td><strong>Avaliação 3 (final) — Apresentações do projeto empírico</strong></td>
+<td>**Avaliação 3 (final)</td>
 </tr>
 </tbody>
 </table>
