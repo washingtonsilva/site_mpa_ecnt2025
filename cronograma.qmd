@@ -591,3 +591,23 @@ mais longos.
 
   - [09-relatorio.zip](arquivos/09-relatorio.zip)
   - Baixe o arquivo, descompacte e coloque o arquivo .qmd dentro da subpasta `relatorios/09-relatorio/`
+
+
+
+
+
+# Semana 14
+
+## Aula 14 (11/11/2025) 
+
+
+- **Atividade 3**
+
+- Arquivos necessários para a atividade
+
+  - [03-atividade](arquivos/03-atividade.html){target="_blank"} - Clique para acessar a atividade
+  - [03-template-atividade.zip](arquivos/03-template-atividade.zip) - Template de arquivo quarto,
+  que produz um arquivo html após ser renderizado, para resolver e enviar a atividade.
+
+
+  - **Data Limite** para envio do arquivo html compactado (.zip) pelo Google Sala de Aula: 17 horas de 18/11/2025 
