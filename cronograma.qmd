@@ -606,7 +606,7 @@ mais longos.
 - Arquivos necessários para a atividade
 
   - [03-atividade](arquivos/03-atividade.html){target="_blank"} - Clique para acessar a atividade
-  - [03-template-atividade.zip](arquivos/03-template-atividade.zip) - Template de arquivo quarto,
+  - [03-atividade-template.zip](arquivos/03-atividade-template.zip) - Template de arquivo quarto,
   que produz um arquivo html após ser renderizado, para resolver e enviar a atividade.
 
 
