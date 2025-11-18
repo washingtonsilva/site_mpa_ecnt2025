@@ -609,6 +609,6 @@ mais longos.
   - [03-atividade-template.zip](arquivos/03-atividade-template.zip) - Template de arquivo quarto,
   que produz um arquivo html após ser renderizado, para resolver e enviar a atividade.
   - [03-atividade-solucoes.html](arquivos/03-atividade-solucoes.html){target="_blank"} - Soluções propostas para a 
-  atividade.
+  atividade 3.
 
   - **Data Limite** para envio do arquivo html compactado (.zip) pelo Google Sala de Aula: 17 horas de 18/11/2025 
