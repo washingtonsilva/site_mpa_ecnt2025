@@ -2782,23 +2782,23 @@ H_0: \beta_{\text{Ford}} = 1 \quad \text{versus} \quad H_1: \beta_{\text{Ford}} 
 <p>usando a função <code>linearHypothesis</code> do pacote car:</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># teste de beta = 0 vs. beta != 0 para a Ford</span></span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>car<span class="sc">::</span><span class="fu">linearHypothesis</span>(capm_ford, <span class="fu">c</span>(<span class="st">&quot;ret_mkt_excedentes = 0&quot;</span>))</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>car<span class="sc">::</span><span class="fu">linearHypothesis</span>(capm_ford, <span class="fu">c</span>(<span class="st">&quot;ret_mkt_excedentes = 1&quot;</span>))</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Linear hypothesis test:
-ret_mkt_excedentes = 0
+ret_mkt_excedentes = 1
 
 Model 1: restricted model
 Model 2: ret_ford_excedentes ~ ret_mkt_excedentes
 
-  Res.Df  RSS Df Sum of Sq    F           Pr(&gt;F)    
-1    179 4.55                                       
-2    178 3.34  1      1.21 64.5 0.00000000000013 ***
+  Res.Df  RSS Df Sum of Sq    F Pr(&gt;F)   
+1    179 3.53                            
+2    178 3.34  1     0.192 10.2 0.0016 **
 ---
 Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 </div>
 </div>
-<p>O teste F fornece evidências para rejeitar a hipótese nula de que o beta da Ford é igual a 1, visto que o valor-p <span class="math inline">\(\ll 1\)</span> ( o símbolo <span class="math inline">\(\ll\)</span> lê-se como “muito menor que”), mas o resultado de um teste de hipóteses, como sabemos, é pouco informativo sobre os valores plausíveis para o beta da Ford.</p>
+<p>O teste F fornece evidências para rejeitar a hipótese nula de que o beta da Ford é igual a 1, visto que o valor-p <span class="math inline">\(\ll\)</span> 0.05 ( o símbolo <span class="math inline">\(\ll\)</span> lê-se como “muito menor que”), mas o resultado de um teste de hipóteses, como sabemos, é pouco informativo sobre os valores plausíveis para o beta da Ford.</p>
 <p>Como sabemos, um procedimento de inferência mais informativo é obter uma estimativa por intervalo de confiança para o beta da Ford:</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># capm estimado para a Ford</span></span>
@@ -3115,13 +3115,13 @@ Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&
 <h4 class="anchored" data-anchor-id="teste-shapiro-wilk">Teste Shapiro-Wilk</h4>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co"># teste de Shapiro-Wilk</span></span>
-<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="fu">shapiro.test</span>(capm_ford<span class="sc">$</span>residuals[<span class="sc">-</span><span class="fu">c</span>(<span class="dv">124</span>,<span class="dv">131</span>,<span class="dv">136</span>)])</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="fu">shapiro.test</span>(capm_ford<span class="sc">$</span>residuals)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
     Shapiro-Wilk normality test
 
-data:  capm_ford$residuals[-c(124, 131, 136)]
-W = 0.982, p-value = 0.025</code></pre>
+data:  capm_ford$residuals
+W = 0.803, p-value = 0.000000000000027</code></pre>
 </div>
 </div>
 <p>Como esperado, o resultado do teste de Shapiro-Wilk fornece evidências para rejeitar a hipótese nula de que os resíduos do modelo CAPM da Ford são aproximadamente normais.</p>
