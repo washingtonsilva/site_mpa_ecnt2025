@@ -297,6 +297,17 @@
     ]
   },
   {
+    "objectID": "cronograma.html#aula-15-25112025",
+    "href": "cronograma.html#aula-15-25112025",
+    "title": "Cronograma",
+    "section": "Aula 15 (25/11/2025)",
+    "text": "Aula 15 (25/11/2025)\n\nTópico:\n\nAvaliação 3 - Final\n\nAvaliação 3\n\n\n\n\n\n\nDicaAvaliação 3\n\n\n\nClique aqui para acessar a Avaliação 3\nO3-avaliacao-template.zip - Template de arquivo quarto para resolver a avaliação\nff_br_carteira.zip - Arquivo de dados\n\n\n\n\n\n\n\n\nDicaEstruturando seu Projeto RStudio para a Avaliação 1\n\n\n\n\nAbra o RStudio e o seu Projeto RStudio da disciplina\nDentro da pasta avaliacoes, crie uma subpasta chamada 03-avaliacao\nBaixe o arquivo 03-avaliacao-template.zip, descompacte esse arquivo, copie/recorte o arquivo 03-avaliacao-template.qmd e salve-o na subpasta 03-avaliacao que você acabou de criar\nRenomeie o arquivo 03-avaliacao-template.qmd para 03-avaliacao-seunome.qmd\nEscreva seu nome na chave author: \"SEU NOME AQUI\" do cabeçalho yaml\nBaixe o arquivo ff_br_carteira.zip, descompacte esse arquivo, copie/recorte o arquivo f_br_carteira.rds e salve-o na subpasta apropriada da pasta dados do seu projeto\nResolva as questões\nApós finalizar a resolução, envie uma versão compactada (.zip) do seu arquivo 03-avaliacao-seunome.html por email atá as 21:30 horas",
+    "crumbs": [
+      "Início",
+      "Cronograma"
+    ]
+  },
+  {
     "objectID": "ambiente.html",
     "href": "ambiente.html",
     "title": "Ambiente Computacional",

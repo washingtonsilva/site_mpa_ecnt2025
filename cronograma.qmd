@@ -611,3 +611,58 @@ mais longos.
   - [03-atividade-solucoes.html](arquivos/03-atividade-solucoes.html){target="_blank"} - Soluções propostas.
 
   - **Data Limite** para envio do arquivo html compactado (.zip) pelo Google Sala de Aula: 17 horas de 18/11/2025 
+
+
+
+
+
+
+# Semana 15
+
+## Aula 15 (25/11/2025) 
+
+- **Tópico:**
+  
+  - Avaliação 3 - Final
+
+
+- **Avaliação 3**
+
+  ::: {.callout-tip}
+  ## Avaliação 3
+
+  [**Clique aqui para acessar a Avaliação 3**](/arquivos/03-avaliacao.html){target="_blank"}
+  
+  [O3-avaliacao-template.zip](arquivos/03-avaliacao-template.zip) - Template de arquivo quarto para resolver a avaliação
+
+  [ff_br_carteira.zip](arquivos/ff_br_carteira.zip) - Arquivo de dados
+  
+  :::
+
+
+  ::: {.callout-tip}
+  ## Estruturando seu Projeto RStudio para a Avaliação 1
+
+  1. Abra o RStudio e o seu Projeto RStudio da disciplina
+
+  2. Dentro da pasta **avaliacoes**, crie uma subpasta chamada **03-avaliacao**
+
+  3. Baixe o arquivo **03-avaliacao-template.zip**, descompacte esse arquivo, 
+  copie/recorte o arquivo `03-avaliacao-template.qmd` e salve-o na 
+  subpasta **03-avaliacao** que você acabou de criar
+
+  4. Renomeie o arquivo `03-avaliacao-template.qmd` para 
+  `03-avaliacao-seunome.qmd`
+
+  5. Escreva seu nome na chave `author: "SEU NOME AQUI"` do cabeçalho yaml
+
+  6. Baixe o arquivo **ff_br_carteira.zip**, descompacte esse arquivo, copie/recorte 
+  o arquivo `f_br_carteira.rds` e salve-o na subpasta apropriada da pasta **dados** do 
+  seu projeto
+
+  7. Resolva as questões
+
+  8. Após finalizar a resolução, envie uma versão compactada (.zip) do seu arquivo 
+  `03-avaliacao-seunome.html` por email atá as 21:30 horas
+  :::
+
