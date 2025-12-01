@@ -8,7 +8,7 @@ author: "Prof. Dr. Washington S. da Silva"
 
 ## Objetivo Geral
 
-Desenvolver, nos mestrandos, competências para compreender, implementar e interpretar modelos de regressão linear, não linear e de equações simultâneas aplicados a dados em seção cruzada na área de finanças, empregando a linguagem R, o sistema Quarto e o Git/GitHub para a produção de análises empíricas reprodutíveis.
+Desenvolver, nos mestrandos, competências para compreender, implementar e interpretar modelos de regressão linear e não linear aplicados a dados em seção cruzada na área de finanças, empregando a linguagem R, o sistema Quarto e o Git/GitHub para a produção de análises empíricas reprodutíveis.
 
 
 
@@ -16,11 +16,13 @@ Desenvolver, nos mestrandos, competências para compreender, implementar e inter
 
 Ao final da disciplina, espera-se que o mestrando seja capaz de:
 
-1. Compreender os fundamentos teóricos dos modelos de regressão linear, não linear e de equações simultâneas aplicados a dados em seção cruzada.
+1. Compreender os fundamentos teóricos dos modelos de regressão linear e não linear e de aplicados a dados em seção cruzada.
 
-2. Estimar e interpretar adequadamente modelos de regressão linear, não linear e de equações simultâneas em aplicações de finanças.
+2. Estimar e interpretar adequadamente modelos de regressão linear e não linear em aplicações na área de 
+finanças.
 
-3. Diagnosticar e tratar violações das hipóteses do modelo clássico, incluindo heterocedasticidade, multicolinearidade e especificação incorreta, entre outras questões.
+3. Diagnosticar e tratar violações das hipóteses do modelo clássico, incluindo especificação funcional 
+incorreta, multicolinearidade, heterocedasticidade, autocorrelação, endogeneidade, entre outras questões.
 
 4. Implementar aplicações empíricas relevantes em finanças.
 
@@ -32,7 +34,7 @@ Ao final da disciplina, espera-se que o mestrando seja capaz de:
 
 Trata-se de um planejamento e pode ser alterado conforme o andamento da disciplina.
 
-1. **Avaliação 1 (33 pontos)** — exercícios semanais realizados em aula. 
+1. **Avaliação 1 (33 pontos)** — listas de exercícios
 
 2. **Avaliação 2 (33 pontos)** — teórico-prática
 
@@ -73,7 +75,7 @@ Venables, W. N. & Smith, D. M. (2025). An Introduction to R. Manual para R v
 
 ## Ementa
 
-Computação científica reprodutível com R, Git/GitHub e Quarto. Fundamentos de probabilidade e inferência estatística aplicados à regressão. Modelo clássico de regressão linear: estimação, inferência e diagnóstico. Correção de violações das hipóteses clássicas. Regressão Robusta.  Modelos para variáveis dependentes limitadas. Variáveis Instrumentais. Aplicações empíricas em finanças.
+Computação científica reprodutível com R, Git/GitHub e Sistema Quarto. Revisão de probabilidade e inferência estatística. Modelo clássico de regressão linear: estimação, inferência e diagnóstico. Correção de violações das hipóteses clássicas. Regressão Robusta. Modelos para variáveis dependentes limitadas. Regressores Endógenos: Estimação Baseada em Momentos e Variáveis Instrumentais. Tópicos Extras: Regressão Quantílica. Modelos de Equações Simultâneas.
 
 
 
@@ -105,9 +107,8 @@ Computação científica reprodutível com R, Git/GitHub e Quarto. Fundamentos d
    - Modelos Logit e Probit: fundamentos, estimação, interpretação e aplicações.
    - Modelos multinomiais
 
-6. **Variáveis Instrumentais**
+6. **Regressores Endógenos e Variáveis Instrumentais**
 
-7. ??? 
 
 
 
@@ -140,10 +141,10 @@ Entre os recursos didáticos utilizados na disciplina estão:
 ## Metodologia de Ensino
 
 A disciplina será conduzida no formato *hands-on*, com abordagem de aprendizagem ativa. 
-As aulas combinarão exposições teóricas objetivas com atividades práticas em R e Quarto, 
+As aulas combinarão exposições teóricas com atividades práticas em R e Quarto, 
 incluindo simulações para compreensão dos conceitos de modelos de regressão e sua aplicação.  
-O uso de dados reais, simulados e estudos de caso em finanças permitirá integrar teoria, 
-prática computacional e pesquisa reprodutível.
+Espera-se que o uso de dados reais, simulados e estudos de caso em finanças permitirá 
+integrar teoria, prática computacional e pesquisa reprodutível.
 
 
 
@@ -152,23 +153,23 @@ prática computacional e pesquisa reprodutível.
 
 Trata-se apenas de um planejamento e, como todo planejamento, pode ser alterado conforme o andamento da disciplina.
 
-| Aula | Data       | Tópico                                                                                              |
-|------|------------|-----------------------------------------------------------------------------------------------------|
-| 1    | 19/08/2025 | Apresentação da disciplina. Ambiente computacional (R, Quarto, Git/GitHub)                          |
-| 2    | 26/08/2025 | Ambiente computacional (R, Quarto, Git/GitHub)                                                      |
-| 3    | 02/09/2025 | Fundamentos de Probabilidade e Inferência                                                           |
-| 4    | 09/09/2025 | Fundamentos de Probabilidade e Inferência                                                           |
-| 5    | 16/09/2025 | Fundamentos de Probabilidade e Inferência                                                           |
-| 6    | 23/09/2025 | Fundamentos de Probabilidade e Inferência                                                           |
-| 7    | 30/09/2025 | Fundamentos de Probabilidade e Inferência                                                           |
-| 8    | 07/10/2025 | Modelo de Regressão Linear - Avaliação 2                                                            |
-| 9    | 14/10/2025 | Modelo de Regressão Linear                                                                          |
-| 10   | 21/10/2025 | Modelo de Regressão Linear                                                                          |
-| 11   | 28/10/2025 | Estabilidade de Parâmetros, Diagnóstico de Normalidade, Regressão Robusta                           |
-| 12   | 04/11/2025 | Modelos para Variáveis Dependentes Limitadas                                                        |
-| 13   | 11/11/2025 | Variáveis Instrumentais                                                                             |
-| 14   | 18/11/2025 | **???**                                                                                             |
-| 15   | 25/11/2025 | **Avaliação 3 (final)                                                                       |                   
+| Aula | Data       | Tópico                                                                          |
+|------|------------|---------------------------------------------------------------------------------|
+| 1    | 19/08/2025 | Apresentação da disciplina. Ambiente computacional (R, Quarto, Git/GitHub)      |
+| 2    | 26/08/2025 | Ambiente computacional (R, Quarto, Git/GitHub)                                  |
+| 3    | 02/09/2025 | Teoria da Probabilidade                                                         |
+| 4    | 09/09/2025 | Teoria da Probabilidade                                                         |
+| 5    | 16/09/2025 | Teoria da Probabilidade                                                         |
+| 6    | 23/09/2025 | Inferência Estatística                                                          |
+| 7    | 30/09/2025 | Inferência Estatística                                                          |
+| 8    | 07/10/2025 | Modelo de Regressão Linear - Avaliação 2                                        |
+| 9    | 14/10/2025 | Modelo de Regressão Linear                                                      |
+| 10   | 21/10/2025 | Modelo de Regressão Linear                                                      |
+| 11   | 28/10/2025 | Estabilidade de Parâmetros, Diagnóstico de Normalidade, Regressão Robusta       |
+| 12   | 04/11/2025 | Modelos para Variáveis Dependentes Limitadas                                    |
+| 13   | 11/11/2025 | Variáveis Instrumentais                                                         |
+| 14   | 18/11/2025 | Revisão para Avaliação Final                                                    |
+| 15   | 25/11/2025 | **Avaliação 3                                                                   |                   
 
 
 

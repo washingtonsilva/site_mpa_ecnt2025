@@ -4,7 +4,7 @@
     "href": "programa.html",
     "title": "Programa da Disciplina",
     "section": "",
-    "text": "Desenvolver, nos mestrandos, competências para compreender, implementar e interpretar modelos de regressão linear, não linear e de equações simultâneas aplicados a dados em seção cruzada na área de finanças, empregando a linguagem R, o sistema Quarto e o Git/GitHub para a produção de análises empíricas reprodutíveis.",
+    "text": "Desenvolver, nos mestrandos, competências para compreender, implementar e interpretar modelos de regressão linear e não linear aplicados a dados em seção cruzada na área de finanças, empregando a linguagem R, o sistema Quarto e o Git/GitHub para a produção de análises empíricas reprodutíveis.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -15,7 +15,7 @@
     "href": "programa.html#objetivo-geral",
     "title": "Programa da Disciplina",
     "section": "",
-    "text": "Desenvolver, nos mestrandos, competências para compreender, implementar e interpretar modelos de regressão linear, não linear e de equações simultâneas aplicados a dados em seção cruzada na área de finanças, empregando a linguagem R, o sistema Quarto e o Git/GitHub para a produção de análises empíricas reprodutíveis.",
+    "text": "Desenvolver, nos mestrandos, competências para compreender, implementar e interpretar modelos de regressão linear e não linear aplicados a dados em seção cruzada na área de finanças, empregando a linguagem R, o sistema Quarto e o Git/GitHub para a produção de análises empíricas reprodutíveis.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -26,7 +26,7 @@
     "href": "programa.html#objetivos-específicos",
     "title": "Programa da Disciplina",
     "section": "Objetivos Específicos",
-    "text": "Objetivos Específicos\nAo final da disciplina, espera-se que o mestrando seja capaz de:\n\nCompreender os fundamentos teóricos dos modelos de regressão linear, não linear e de equações simultâneas aplicados a dados em seção cruzada.\nEstimar e interpretar adequadamente modelos de regressão linear, não linear e de equações simultâneas em aplicações de finanças.\nDiagnosticar e tratar violações das hipóteses do modelo clássico, incluindo heterocedasticidade, multicolinearidade e especificação incorreta, entre outras questões.\nImplementar aplicações empíricas relevantes em finanças.\nElaborar e documentar projetos empíricos reprodutíveis, seguindo as boas práticas recomendadas na literatura.",
+    "text": "Objetivos Específicos\nAo final da disciplina, espera-se que o mestrando seja capaz de:\n\nCompreender os fundamentos teóricos dos modelos de regressão linear e não linear e de aplicados a dados em seção cruzada.\nEstimar e interpretar adequadamente modelos de regressão linear e não linear em aplicações na área de finanças.\nDiagnosticar e tratar violações das hipóteses do modelo clássico, incluindo especificação funcional incorreta, multicolinearidade, heterocedasticidade, autocorrelação, endogeneidade, entre outras questões.\nImplementar aplicações empíricas relevantes em finanças.\nElaborar e documentar projetos empíricos reprodutíveis, seguindo as boas práticas recomendadas na literatura.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -37,7 +37,7 @@
     "href": "programa.html#avaliação",
     "title": "Programa da Disciplina",
     "section": "Avaliação",
-    "text": "Avaliação\nTrata-se de um planejamento e pode ser alterado conforme o andamento da disciplina.\n\nAvaliação 1 (33 pontos) — exercícios semanais realizados em aula.\nAvaliação 2 (33 pontos) — teórico-prática\nAvaliação 3 (34 pontos) - teórico-prática\n\nCritério de aprovação: nota média final igual ou superior a 60 pontos.",
+    "text": "Avaliação\nTrata-se de um planejamento e pode ser alterado conforme o andamento da disciplina.\n\nAvaliação 1 (33 pontos) — listas de exercícios\nAvaliação 2 (33 pontos) — teórico-prática\nAvaliação 3 (34 pontos) - teórico-prática\n\nCritério de aprovação: nota média final igual ou superior a 60 pontos.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -81,7 +81,7 @@
     "href": "programa.html#ementa",
     "title": "Programa da Disciplina",
     "section": "Ementa",
-    "text": "Ementa\nComputação científica reprodutível com R, Git/GitHub e Quarto. Fundamentos de probabilidade e inferência estatística aplicados à regressão. Modelo clássico de regressão linear: estimação, inferência e diagnóstico. Correção de violações das hipóteses clássicas. Regressão Robusta. Modelos para variáveis dependentes limitadas. Variáveis Instrumentais. Aplicações empíricas em finanças.",
+    "text": "Ementa\nComputação científica reprodutível com R, Git/GitHub e Sistema Quarto. Revisão de probabilidade e inferência estatística. Modelo clássico de regressão linear: estimação, inferência e diagnóstico. Correção de violações das hipóteses clássicas. Regressão Robusta. Modelos para variáveis dependentes limitadas. Regressores Endógenos: Estimação Baseada em Momentos e Variáveis Instrumentais. Tópicos Extras: Regressão Quantílica. Modelos de Equações Simultâneas.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -92,7 +92,7 @@
     "href": "programa.html#conteúdo-programático",
     "title": "Programa da Disciplina",
     "section": "Conteúdo Programático",
-    "text": "Conteúdo Programático\n\nProgramação Científica Reprodutível\n\nFundamentos, importância e ferramentas (R, Quarto, Git/GitHub).\nEstruturação de projetos reprodutíveis.\nIntrodução a pacotes para análise de dados financeiros.\n\nFundamentos de Probabilidade e Inferência\n\nConceitos essenciais de probabilidade aplicados à regressão.\nNoções de inferência estatística: estimadores, testes de hipóteses e intervalos de confiança.\n\nModelo Clássico de Regressão Linear\n\nEspecificação, hipóteses e estimação por MQO.\nPropriedades dos estimadores.\nDiagnóstico e tratamento de violações.\nQuestões de especificação e estabilidade de parâmetros.\n\nModelos de Regressão Robusta\nModelos Não Lineares\n\nModelos Logit e Probit: fundamentos, estimação, interpretação e aplicações.\nModelos multinomiais\n\nVariáveis Instrumentais\n???",
+    "text": "Conteúdo Programático\n\nProgramação Científica Reprodutível\n\nFundamentos, importância e ferramentas (R, Quarto, Git/GitHub).\nEstruturação de projetos reprodutíveis.\nIntrodução a pacotes para análise de dados financeiros.\n\nFundamentos de Probabilidade e Inferência\n\nConceitos essenciais de probabilidade aplicados à regressão.\nNoções de inferência estatística: estimadores, testes de hipóteses e intervalos de confiança.\n\nModelo Clássico de Regressão Linear\n\nEspecificação, hipóteses e estimação por MQO.\nPropriedades dos estimadores.\nDiagnóstico e tratamento de violações.\nQuestões de especificação e estabilidade de parâmetros.\n\nModelos de Regressão Robusta\nModelos Não Lineares\n\nModelos Logit e Probit: fundamentos, estimação, interpretação e aplicações.\nModelos multinomiais\n\nRegressores Endógenos e Variáveis Instrumentais",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -114,7 +114,7 @@
     "href": "programa.html#metodologia-de-ensino",
     "title": "Programa da Disciplina",
     "section": "Metodologia de Ensino",
-    "text": "Metodologia de Ensino\nA disciplina será conduzida no formato hands-on, com abordagem de aprendizagem ativa. As aulas combinarão exposições teóricas objetivas com atividades práticas em R e Quarto, incluindo simulações para compreensão dos conceitos de modelos de regressão e sua aplicação.\nO uso de dados reais, simulados e estudos de caso em finanças permitirá integrar teoria, prática computacional e pesquisa reprodutível.",
+    "text": "Metodologia de Ensino\nA disciplina será conduzida no formato hands-on, com abordagem de aprendizagem ativa. As aulas combinarão exposições teóricas com atividades práticas em R e Quarto, incluindo simulações para compreensão dos conceitos de modelos de regressão e sua aplicação.\nEspera-se que o uso de dados reais, simulados e estudos de caso em finanças permitirá integrar teoria, prática computacional e pesquisa reprodutível.",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
@@ -125,7 +125,7 @@
     "href": "programa.html#plano-de-aula",
     "title": "Programa da Disciplina",
     "section": "Plano de Aula",
-    "text": "Plano de Aula\nTrata-se apenas de um planejamento e, como todo planejamento, pode ser alterado conforme o andamento da disciplina.\n\n\n\n\n\n\n\n\nAula\nData\nTópico\n\n\n\n\n1\n19/08/2025\nApresentação da disciplina. Ambiente computacional (R, Quarto, Git/GitHub)\n\n\n2\n26/08/2025\nAmbiente computacional (R, Quarto, Git/GitHub)\n\n\n3\n02/09/2025\nFundamentos de Probabilidade e Inferência\n\n\n4\n09/09/2025\nFundamentos de Probabilidade e Inferência\n\n\n5\n16/09/2025\nFundamentos de Probabilidade e Inferência\n\n\n6\n23/09/2025\nFundamentos de Probabilidade e Inferência\n\n\n7\n30/09/2025\nFundamentos de Probabilidade e Inferência\n\n\n8\n07/10/2025\nModelo de Regressão Linear - Avaliação 2\n\n\n9\n14/10/2025\nModelo de Regressão Linear\n\n\n10\n21/10/2025\nModelo de Regressão Linear\n\n\n11\n28/10/2025\nEstabilidade de Parâmetros, Diagnóstico de Normalidade, Regressão Robusta\n\n\n12\n04/11/2025\nModelos para Variáveis Dependentes Limitadas\n\n\n13\n11/11/2025\nVariáveis Instrumentais\n\n\n14\n18/11/2025\n???\n\n\n15\n25/11/2025\n**Avaliação 3 (final)",
+    "text": "Plano de Aula\nTrata-se apenas de um planejamento e, como todo planejamento, pode ser alterado conforme o andamento da disciplina.\n\n\n\n\n\n\n\n\nAula\nData\nTópico\n\n\n\n\n1\n19/08/2025\nApresentação da disciplina. Ambiente computacional (R, Quarto, Git/GitHub)\n\n\n2\n26/08/2025\nAmbiente computacional (R, Quarto, Git/GitHub)\n\n\n3\n02/09/2025\nTeoria da Probabilidade\n\n\n4\n09/09/2025\nTeoria da Probabilidade\n\n\n5\n16/09/2025\nTeoria da Probabilidade\n\n\n6\n23/09/2025\nInferência Estatística\n\n\n7\n30/09/2025\nInferência Estatística\n\n\n8\n07/10/2025\nModelo de Regressão Linear - Avaliação 2\n\n\n9\n14/10/2025\nModelo de Regressão Linear\n\n\n10\n21/10/2025\nModelo de Regressão Linear\n\n\n11\n28/10/2025\nEstabilidade de Parâmetros, Diagnóstico de Normalidade, Regressão Robusta\n\n\n12\n04/11/2025\nModelos para Variáveis Dependentes Limitadas\n\n\n13\n11/11/2025\nVariáveis Instrumentais\n\n\n14\n18/11/2025\nRevisão para Avaliação Final\n\n\n15\n25/11/2025\n**Avaliação 3",
     "crumbs": [
       "Início",
       "Programa da Disciplina"
